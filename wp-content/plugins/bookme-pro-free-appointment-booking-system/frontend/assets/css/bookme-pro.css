@@ -1,0 +1,1725 @@
+/* Global */
+.bookme-pro-list-none {
+    list-style: none;
+}
+
+.bookme-pro-left {
+    float: left !important;
+}
+
+.bookme-pro-right {
+    float: right !important;
+}
+
+.bookme-pro-clear {
+    clear: both !important;
+}
+
+.bookme-pro-rtext {
+    text-align: right;
+}
+
+.bookme-pro-bold {
+    font-weight: bold !important;
+}
+
+.bookme-pro-list {
+    margin-left: 10px !important;
+}
+
+.bookme-pro-clear-bottom {
+    margin-bottom: 0 !important;
+}
+
+.bookme-pro-none {
+    display: none !important;
+}
+
+.bookme-pro-nowrap {
+    white-space: nowrap;
+}
+
+.bookme-pro-inline-block {
+    display: inline-block !important;
+}
+
+.bookme-pro-btn {
+    text-decoration: none;
+}
+
+.bookme-pro-btn[disabled] {
+    opacity: 0.5;
+}
+
+/* Layout */
+.bookme-pro-box {
+    margin: 0 0 20px;
+}
+
+.bookme-pro-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.bookme-pro-table > * {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+}
+
+/* Form Elements */
+.bookme-pro-form {
+    margin: 0 auto;
+}
+
+.bookme-pro-form * {
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: inherit;
+}
+
+.bookme-pro-form input[type="text"],
+.bookme-pro-form input[type="number"],
+.bookme-pro-form input[type="password"],
+.bookme-pro-form select,
+.bookme-pro-form textarea {
+    font-size: 14px !important;
+    line-height: normal !important;
+    border: 1px solid silver !important;
+    border-radius: 4px !important;
+    width: 100% !important;
+}
+
+.bookme-pro-form input[type="text"],
+.bookme-pro-form input[type="number"],
+.bookme-pro-form input[type="password"],
+.bookme-pro-form select {
+    height: auto !important;
+}
+
+.bookme-pro-form input[type="checkbox"],
+.bookme-pro-form input[type="radio"] {
+    width: auto !important;
+    height: auto !important;
+}
+
+.bookme-pro-form input[type="text"],
+.bookme-pro-form input[type="checkbox"],
+.bookme-pro-form input[type="radio"],
+.bookme-pro-form input[type="number"],
+.bookme-pro-form input[type="password"],
+.bookme-pro-form select,
+.bookme-pro-form textarea {
+    margin: 0 !important;
+    outline: none !important;
+}
+
+.bookme-pro-form input[type="text"],
+.bookme-pro-form input[type="number"],
+.bookme-pro-form input[type="password"],
+.bookme-pro-form textarea {
+    padding: 6px 7px 5px !important;
+}
+
+.bookme-pro-form select {
+    padding: 5px 6px 4px !important;
+}
+
+.bookme-pro-form label {
+    float: none;
+    width: auto;
+    font-size: 14px;
+}
+
+.bookme-pro-form .bookme-pro-label-error {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.bookme-pro-form-inline .bookme-pro-form-group {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.bookme-pro-form-group > label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* button loading */
+@-webkit-keyframes bookme-pro-load {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes bookme-pro-load {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes bookme-pro-load {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes bookme-pro-load {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.bookme-pro-loader {
+    position: relative;
+    opacity: .8;
+    color: transparent !important;
+    text-shadow: none !important;
+    pointer-events: none;
+}
+
+.bookme-pro-loader:hover,
+.bookme-pro-loader:active,
+.bookme-pro-loader:focus {
+    cursor: default;
+    color: transparent;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.bookme-pro-loader:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: transparent;
+    box-sizing: border-box;
+    -webkit-background-clip: padding-box;
+    border-radius: 50%;
+    border: .15em solid #fff;
+    border-left-color: transparent;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: bookme-pro-load .8s linear infinite;
+    -moz-animation: bookme-pro-load .8s linear infinite;
+    -o-animation: bookme-pro-load .8s linear infinite;
+    animation: bookme-pro-load .8s linear infinite;
+}
+
+.bookme-pro-shortcode-loader {
+    min-height: 300px;
+}
+
+.bookme-pro-shortcode-loader.bookme-pro-loader:before {
+    border-left-color: #225c9d;
+    border-right-color: #225c9d;
+    border-top-color: #225c9d;
+}
+
+.bookme-pro-table .bookme-pro-form-group, .bookme-pro-table-row .bookme-pro-form-group {
+    margin: 0 0 20px;
+}
+
+.bookme-pro-form-group > div {
+    margin-right: 14px;
+    margin-top: 5px;
+}
+
+.bookme-pro-table-row .bookme-pro-form-group > div {
+    margin-right: 0;
+}
+
+/* Buttons */
+.bookme-pro-nav-steps {
+    padding-top: 20px !important;
+    border-top: 1px solid silver !important;
+    overflow: hidden;
+}
+
+.bookme-pro-btn {
+    padding: 9px 18px !important;
+    border: 0 !important;
+    min-width: 118px;
+    display: block;
+    text-align: center;
+    line-height: normal;
+    border-radius: 4px !important;
+    background: #225c9d;
+    cursor: pointer !important;
+    height: auto !important;
+    outline: none !important;
+}
+
+.bookme-pro-btn,
+.bookme-pro-btn > span {
+    color: #fff !important;
+    font-size: 18px !important;
+    line-height: 17px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+button.bookme-pro-btn:hover,
+button.bookme-pro-btn:active,
+button.bookme-pro-round:hover,
+button.bookme-pro-round:active,
+button.bookme-pro-square:hover,
+button.bookme-pro-square:active {
+    background-image: none !important;
+}
+
+.bookme-pro-btn-small {
+    width: 35px;
+    height: 35px !important;
+    min-width: 0;
+    padding: 0 !important;
+    display: inline-block;
+}
+
+.bookme-pro-time-next,
+.bookme-pro-time-prev {
+    width: 60px;
+    min-width: inherit;
+    height: 35px !important;
+    padding: 0 5px !important;
+}
+
+.bookme-pro-time-next {
+    background-position: 50% -56px;
+    margin-left: 10px !important;
+}
+
+.bookme-pro-time-prev {
+    background-position: 50% 8px;
+    transform: rotate(180deg);
+}
+
+.bookme-pro-square,
+.bookme-pro-round {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: 0 !important;
+    line-height: 0 !important;
+    border: 0 !important;
+    outline: none !important;
+    background-repeat: no-repeat;
+}
+
+span.bookme-pro-round {
+    display: block;
+}
+
+.bookme-pro-square {
+    border-radius: 15%;
+}
+
+.bookme-pro-checkbox-group > input[type='checkbox'] {
+    display: none !important;
+}
+
+.bookme-pro-checkbox-group > input[type='checkbox']:not(:checked) + label > i {
+    background-image: url(../../../frontend/assets/images/square-24.png);
+}
+
+.bookme-pro-checkbox-group > input[type='checkbox']:checked + label > i {
+    background-image: url(../../../frontend/assets/images/checkbox-16.png);
+}
+
+.bookme-pro-checkbox-group > input[type='checkbox']:disabled + label > i {
+    background-image: url(../../../frontend/assets/images/x-24.png) !important;
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.bookme-pro-checkbox-group label {
+    font-weight: bold;
+}
+
+.bookme-pro-row label {
+    vertical-align: text-top;
+}
+
+.bookme-pro-checkbox-group label:nth-child(3) {
+    margin-left: 4px;
+}
+
+.bookme-pro-round-button {
+    cursor: pointer !important;
+}
+
+.bookme-pro-round-button:first-child {
+    margin-right: 5px !important;
+}
+
+.bookme-pro-round-button img {
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.bookme-pro-triangle {
+    width: 29px;
+    height: 29px;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 26px solid;
+}
+
+.bookme-pro-back-step {
+    margin-right: 10px;
+    float: left !important;
+}
+
+.bookme-pro-next-step {
+    float: right !important;
+}
+
+.bookme-pro-mobile-prev-step {
+    margin-right: 10px;
+}
+
+/* Steps */
+
+.bookme-pro-steps > li.bookme-pro-steps-is-active:before, .bookme-pro-steps > li.bookme-pro-steps-is-active ~ li:before {
+    content: counter(stepNum);
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.bookme-pro-steps > li.bookme-pro-steps-is-active:after, .bookme-pro-steps > li.bookme-pro-steps-is-active ~ li:after {
+    background-color: #ededed !important;
+}
+
+.bookme-pro-steps {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 0 0 20px 0 !important;
+}
+
+.bookme-pro-steps > li {
+    counter-increment: stepNum;
+    text-align: center;
+    display: table-cell;
+    position: relative;
+    color: #007acc;
+}
+
+.bookme-pro-steps > li:before {
+    content: '\f00c';
+    content: '\2713;';
+    content: '\10003';
+    content: '\10004';
+    content: '\2713';
+    display: block;
+    margin: 0 auto 4px;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #007acc;
+    border-radius: 50%;
+}
+
+.bookme-pro-steps > li:after {
+    content: '';
+    height: 2px;
+    width: calc(100% - 36px);
+    background-color: #007acc;
+    position: absolute;
+    top: 16px;
+    left: calc(50% + 19px);
+}
+
+.bookme-pro-steps > li:last-child:after {
+    display: none;
+}
+
+.bookme-pro-steps > li.bookme-pro-steps-is-active:before {
+    background-color: transparent;
+    border-color: #007acc;
+}
+
+.bookme-pro-steps > li.bookme-pro-steps-is-active ~ li {
+    color: #bec3c7 !important;
+}
+
+.bookme-pro-steps > li.bookme-pro-steps-is-active ~ li:before {
+    background-color: #ededed !important;
+    border-color: #ededed !important;
+}
+
+/* Service */
+.bookme-pro-service-step .bookme-pro-date-from {
+    cursor: text !important;
+}
+
+.bookme-pro-service-step .bookme-pro-available-date,
+.bookme-pro-service-step .bookme-pro-week-days,
+.bookme-pro-repeat-step .bookme-pro-week-days,
+.bookme-pro-service-step .bookme-pro-time-range {
+    margin-bottom: 20px !important;
+}
+
+.bookme-pro-service-step .bookme-pro-available-date .bookme-pro-form-group > div {
+    margin-right: 0;
+}
+
+.bookme-pro-service-step .bookme-pro-week-days,
+.bookme-pro-repeat-step .bookme-pro-week-days {
+    width: auto;
+}
+
+.bookme-pro-service-step .bookme-pro-week-days > div,
+.bookme-pro-repeat-step .bookme-pro-week-days > div {
+    text-align: center;
+    min-width: 35px;
+}
+
+.bookme-pro-service-step .bookme-pro-week-days label,
+.bookme-pro-repeat-step .bookme-pro-week-days label {
+    display: block !important;
+    width: 23px;
+    height: 23px;
+    padding: 0;
+    margin: 10px auto 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bookme-pro-service-step .bookme-pro-week-days label.active,
+.bookme-pro-repeat-step .bookme-pro-week-days label.active {
+    background: #007acc url("../images/checkbox.png") 0 0 no-repeat;
+}
+
+.bookme-pro-service-step .bookme-pro-week-days label input,
+.bookme-pro-repeat-step .bookme-pro-week-days label input {
+    visibility: hidden;
+}
+
+.bookme-pro-service-step .bookme-pro-time-range select {
+    width: auto !important;
+}
+
+.bookme-pro-mobile-step-1,
+.bookme-pro-details-step {
+    margin-right: -14px;
+}
+
+.bookme-pro-mobile-step-1 .bookme-pro-nav-steps {
+    display: none;
+}
+
+#bookme-pro-service-part2 {
+    overflow: auto;
+}
+
+/* Time */
+.bookme-pro-time-step {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookme-pro-columnizer-wrap {
+    position: relative;
+}
+
+.bookme-pro-columnizer {
+    min-height: .01%;
+    white-space: nowrap;
+    position: relative;
+}
+
+.bookme-pro-columnizer .bookme-pro-time-screen {
+    display: inline-block;
+    *display: inline;
+    min-height: .01%;
+    width: 100%;
+}
+
+#bookme-pro-tbs .bookme-pro-columnizer .bookme-pro-time-screen {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.bookme-pro-columnizer .bookme-pro-column {
+    min-width: 100%;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    float: none !important;
+}
+
+.bookme-pro-columnizer .bookme-pro-day,
+.bookme-pro-columnizer .bookme-pro-hour {
+    display: block !important;
+    min-width: 0;
+    width: 100%;
+    margin: 1.5px 0 !important;
+    border: 0;
+    background: white;
+    padding: 6px;
+    font-size: 13px !important;
+    text-align: left;
+    float: none !important;
+    vertical-align: middle;
+    text-transform: none;
+    border-bottom: 1px solid #cccccc !important;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour {
+    background: white !important;
+    cursor: pointer;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour .bookme-pro-hour-time {
+    font-weight: normal;
+    color: #333 !important;
+    line-height: 40px;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour .ladda-label {
+    display: inline-block;
+    background: #225c9d;
+    float: right;
+    color: white !important;
+    font-weight: bold !important;
+    border: 1px solid #225c9d;
+    padding: 6px 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour .bookme-pro-button-time {
+    display: none;
+}
+
+.bookme-pro-schedule-date,
+.bookme-pro-columnizer .bookme-pro-day {
+    background: #225c9d;
+    color: white !important;
+    font-weight: bold !important;
+    border: 1px solid #225c9d;
+}
+
+.bookme-pro-columnizer .booked,
+.bookme-pro-columnizer .booked:hover {
+    opacity: .5;
+    cursor: default !important;
+}
+
+.bookme-pro-columnizer .booked span {
+    text-decoration: line-through;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour .bookme-pro-hour-icon {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    margin-right: 5px;
+    background: url("../images/success.png") 0 0 no-repeat;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour:hover {
+    background: #f9f9f9 !important;
+    transition: 0.3s;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour.booked:hover {
+    background: #cccccc !important;
+    color: #333333 !important;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour.booked:hover .bookme-pro-hour-icon {
+    border: 2px solid #cccccc !important;
+}
+
+.bookme-pro-time-step .bookme-pro-columnizer > button {
+    display: none !important;
+}
+
+.bookme-pro-time-step .bookme-pro-columnizer > .bookme-pro-column {
+    display: none !important;
+}
+
+.bookme-pro-slot-calendar {
+    margin: 0 20px 20px 0;
+}
+
+.bookme-pro-slot-calendar .picker,
+.bookme-pro-slot-calendar .picker__holder {
+    position: static;
+}
+
+.bookme-pro-not-time-screen {
+    font-size: 16px;
+    height: 296px;
+    margin-left: 320px;
+    font-weight: bold;
+}
+
+.bookme-pro-not-time-screen.bookme-pro-not-calendar {
+    height: auto;
+    margin-left: 0;
+    padding-bottom: 15px;
+}
+
+.bookme-pro-spin-overlay {
+    position: relative;
+    opacity: .5;
+}
+
+.bookme-pro-spin-overlay .bookme-pro-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 720px) {
+    .bookme-pro-columnizer .bookme-pro-hour .bookme-pro-hour-time, .bookme-pro-columnizer .bookme-pro-hour .bookme-pro-button-text {
+        display: none;
+    }
+
+    .bookme-pro-columnizer .bookme-pro-hour .bookme-pro-button-time {
+        display: block;
+    }
+
+    .bookme-pro-columnizer .bookme-pro-hour .ladda-label {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .bookme-pro-columnizer .bookme-pro-day {
+        text-align: center;
+    }
+}
+
+/* pagination */
+.bookme-pro-pagination {
+    display: inline-block;
+    padding-left: 0;
+    border-radius: 4px;
+    margin: 0 !important;
+}
+
+.bookme-pro-pagination > li {
+    line-height: 32px;
+    display: inline-block;
+    border: 1px solid #cccccc !important;
+    border-right: 0 !important;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.bookme-pro-pagination > li:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.bookme-pro-pagination > li:last-child {
+    border-right: 1px solid #cccccc !important;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bookme-pro-pagination > li.active {
+    color: #fff;
+}
+
+.bookme-pro-visible-sm {
+    display: none;
+}
+
+/* well */
+.bookme-pro-well {
+    border: 1px solid #cccccc !important;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 4px;
+    background-color: #F2DEDE;
+    vertical-align: middle;
+    display: table;
+}
+
+.bookme-pro-well > div:nth-child(1) {
+    margin: 5px 5px 5px 0;
+    float: left;
+}
+
+.bookme-pro-well > div:nth-child(2) {
+    min-height: 38px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+}
+
+.popover .editable-container,
+.popover .control-group {
+    min-width: 300px;
+}
+
+label.bookme-pro-checkbox-label input[type=checkbox] {
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+}
+
+.bookme-pro-round-md {
+    width: 35px;
+    height: 35px;
+}
+
+.bookme-pro-triangle-md {
+    margin: 5px 5px 5px 0;
+    width: 35px;
+    height: 35px;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 35px solid;
+    float: left;
+}
+
+.bookme-pro-icon-sm {
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bookme-pro-icon-sm i {
+    margin: 0;
+    padding: 0;
+}
+
+.bookme-pro-icon-md {
+    height: 24px;
+    width: 24px;
+    display: block;
+    margin-left: 6px;
+    background-repeat: no-repeat;
+}
+
+.bookme-pro-triangle .bookme-pro-icon-sm {
+    margin-left: -2px;
+    margin-top: 11px;
+    height: 16px;
+    padding-left: 4px;
+}
+
+.bookme-pro-round-md .bookme-pro-icon-md {
+    margin: 6px;
+}
+
+.bookme-pro-round .bookme-pro-icon-md {
+    margin: 6px;
+}
+
+button.bookme-pro-round,
+label.bookme-pro-square {
+    cursor: pointer;
+}
+
+.bookme-pro-round .ladda-label {
+    display: inline !important;
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-restore {
+    background-image: url(../../../frontend/assets/images/redo-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-exclamation {
+    background-image: url(../../../frontend/assets/images/exclamation-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-i {
+    background-image: url(../../../frontend/assets/images/info-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-edit {
+    background-image: url(../../../frontend/assets/images/edit-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-plus {
+    background-image: url(../../../frontend/assets/images/plus-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-minus {
+    background-image: url(../../../frontend/assets/images/minus-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-drop {
+    background-image: url(../../../frontend/assets/images/delete-16.png);
+}
+
+.bookme-pro-icon-sm.bookme-pro-icon-check {
+    background-image: url(../../../frontend/assets/images/check-16.png);
+}
+
+.bookme-pro-icon-user {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin: 4px 2px 0 2px;
+    vertical-align: top;
+    background-image: url(../../../frontend/assets/images/user-16.png);
+}
+
+.bookme-pro-icon-time {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin: 4px 2px 0 2px;
+    vertical-align: top;
+    background-image: url(../../../frontend/assets/images/time-16.png);
+}
+
+/* Cart */
+.bookme-pro-go-to-cart {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    float: left !important;
+}
+
+.bookme-pro-cart .bookme-pro-mobile-version {
+    display: none;
+}
+
+.bookme-pro-cart table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none !important;
+    table-layout: auto;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.bookme-pro-cart table .bookme-pro-round {
+    vertical-align: bottom;
+}
+
+.bookme-pro-cart table th,
+.bookme-pro-cart table td {
+    border: 0;
+}
+
+.bookme-pro-cart tbody.bookme-pro-mobile-version td,
+.bookme-pro-cart tbody.bookme-pro-mobile-version th {
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.bookme-pro-cart th,
+.bookme-pro-cart tr.bookme-pro-cart-primary,
+.bookme-pro-cart tr.bookme-pro-cart-primary td,
+.bookme-pro-cart tfoot tr,
+.bookme-pro-cart tfoot tr th {
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+    font-size: 14px !important;
+    padding: 0.4em !important;
+}
+
+.bookme-pro-cart tr.bookme-pro-cart-total td {
+    padding: 0.4em !important;
+}
+
+.bookme-pro-cart th {
+    border-width: 0 0 1px 0;
+    font-weight: 700;
+    padding-top: 0 !important;
+    text-align: left;
+}
+
+.bookme-pro-cart table tfoot th,
+.bookme-pro-cart table tfoot td {
+    border-top: 2px solid rgba(51, 51, 51, 0.1);
+}
+
+/* Details */
+.bookme-pro-details-step .bookme-pro-form-group input[type="text"].bookme-pro-captcha {
+    display: block;
+    width: 160px !important;
+    margin: 10px 0 0 !important;
+}
+
+.bookme-pro-details-step .bookme-pro-form-group .intl-tel-input {
+    display: block;
+}
+
+.bookme-pro-details-step .bookme-pro-form-group .intl-tel-input input {
+    padding-left: 45px !important;
+}
+
+.bookme-pro-details-step .bookme-pro-table,
+.bookme-pro-details-step .bookme-pro-table > * {
+    overflow: visible !important;
+}
+
+.bookme-pro-details-step .bookme-pro-form-group textarea {
+    resize: vertical;
+}
+
+.bookme-pro-details-step .bookme-pro-custom-field-row > div > div > label,
+.bookme-pro-details-step .bookme-pro-custom-field-row > div > div > label > input[type="radio"],
+.bookme-pro-details-step .bookme-pro-custom-field-row > div > div > label > input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.bookme-pro-details-step .bookme-pro-custom-field-row > div > div > label > * {
+    vertical-align: middle;
+}
+
+/* Payment */
+.bookme-pro-coupon-box {
+    vertical-align: middle;
+}
+
+.bookme-pro-form input.bookme-pro-user-coupon {
+    width: 100px !important;
+    height: 35px !important;
+}
+
+.bookme-pro-form select.bookme-pro-card-exp {
+    width: auto !important;
+    margin-right: 10px !important;
+}
+
+.bookme-pro-form input.bookme-pro-card-cvc {
+    width: 50px !important;
+}
+
+.bookme-pro-form .bookme-pro-payment-nav > div > label,
+.bookme-pro-form .bookme-pro-payment-nav > div > label > input[type="radio"] {
+    cursor: pointer;
+}
+
+.bookme-pro-form .bookme-pro-payment-nav > div > label > * {
+    vertical-align: middle;
+}
+
+.bookme-pro-form .bookme-pro-payment-nav > div > label > img {
+    margin-left: 10px;
+}
+
+/* Modal Dialog */
+.bookme-pro-fade {
+    display: none;
+}
+
+.bookme-pro-in {
+    display: block;
+}
+
+.bookme-pro-close:hover,
+.bookme-pro-close:focus,
+.bookme-pro-close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    margin-top: -35px;
+}
+
+.bookme-pro-close:focus,
+.bookme-pro-close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+    background: none;
+}
+
+.bookme-pro-modal {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bookme-pro-modal .bookme-pro-modal-dialog {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 100px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-header {
+    min-height: 16.5px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-header h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer .bookme-pro-btn-submit:focus,
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer .bookme-pro-btn-submit:active,
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer .bookme-pro-btn-submit:hover,
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer .bookme-pro-btn-submit {
+    display: inline-block;
+    padding: 6px 12px !important;
+    border: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer .bookme-pro-btn-cancel {
+    border: 0;
+    background: none;
+    color: #21759b;
+    cursor: pointer;
+    padding: 0;
+    vertical-align: -2px;
+    font-size: 14px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-body {
+    position: relative;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-body .bookme-pro-form-group {
+    margin-bottom: 10px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-body .bookme-pro-form-group label {
+    font-size: 14px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-body div > div > label {
+    cursor: pointer;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-body div > div > label > * {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .bookme-pro-modal .bookme-pro-modal-dialog {
+        width: auto;
+        left: 15px;
+        right: 15px;
+        margin: 30px auto;
+        top: 50px;
+    }
+}
+
+/* Picker */
+.bookme-pro-form .picker__holder {
+    overflow: hidden !important;
+    -webkit-border-radius: 5px 5px !important;
+    -moz-border-radius: 5px 5px !important;
+    border-radius: 5px 5px !important;
+    top: 2px;
+    left: 0;
+    outline: none;
+    bottom: auto;
+    border: none;
+    max-height: inherit !important;
+}
+
+.bookme-pro-form .picker {
+    width: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.bookme-pro-form .picker:before,
+.bookme-pro-form .picker:after {
+    display: none !important;
+}
+
+.bookme-pro-form .picker__frame * {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+.bookme-pro-form .picker__frame {
+    position: static;
+    margin-bottom: 0 !important;
+    background: #44619d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #225c9d, #44619d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #225c9d, #44619d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bookme-pro-form .picker__box {
+    padding: 0;
+}
+
+.bookme-pro-form .picker__header {
+    margin: 0;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.bookme-pro-form .picker__month, .picker__year {
+    line-height: 50px !important;
+}
+
+.bookme-pro-form .picker__weekday {
+    font-weight: normal !important;
+    text-align: center !important;
+    padding: 0 !important;
+    padding-bottom: .5em !important;
+    border: 0 !important;
+    background: none !important;
+    padding-top: .5em !important;
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+
+.bookme-pro-form .picker__day--selected,
+.bookme-pro-form .picker__day--selected:hover,
+.bookme-pro-form .picker--focused .picker__day--selected,
+.bookme-pro-form .picker__day--infocus:hover,
+.bookme-pro-form .picker__day--outfocus:hover {
+    background: none !important;
+}
+
+.bookme-pro-form .picker__day--highlighted {
+    border-color: #fff !important;
+}
+
+.bookme-pro-form .picker__nav--prev:before, .bookme-pro-form .picker__nav--next:before {
+    content: none;
+}
+
+.bookme-pro-form .picker--focused .picker__day--highlighted {
+    background: none !important;
+    border-radius: 4px !important;
+}
+
+.bookme-pro-form .picker--focused .picker__day--highlighted:hover {
+    background: none !important;
+}
+
+.bookme-pro-form .picker__button--today:hover,
+.bookme-pro-form .picker__button--clear:hover {
+    background: white !important;
+    border-bottom-color: white !important;
+}
+
+.bookme-pro-form .picker__table {
+    margin: 0 !important;
+    line-height: normal !important;
+    background: none !important;
+}
+
+.bookme-pro-form .picker__table td {
+    text-align: center !important;
+    margin: 0 !important;
+    background: none !important;
+    line-height: 25px;
+    padding: 5px !important;
+}
+
+.bookme-pro-form .picker__table tr,
+.bookme-pro-form .picker__table tbody,
+.bookme-pro-form .picker__table thead {
+    background: none !important;
+}
+
+.bookme-pro-form .picker__nav--prev {
+    left: 20px;
+    transform: rotate(180deg);
+    top: 14px !important;
+}
+
+.bookme-pro-form .picker__nav--next {
+    right: 20px;
+}
+
+.bookme-pro-form .picker__nav--prev,
+.bookme-pro-form .picker__nav--next {
+    box-sizing: content-box;
+    background: url(../images/calendar-arrow.png) no-repeat !important;
+    padding: 0;
+    top: 16px;
+    height: 20px;
+    width: 20px;
+}
+
+.bookme-pro-form .picker__nav--prev:hover,
+.bookme-pro-form .picker__nav--next:hover {
+    opacity: 0.8;
+}
+
+.bookme-pro-form .picker__day--today span {
+    display: inline-block;
+    border: 1px solid white !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+}
+
+.bookme-pro-form .picker__day--today:before {
+    display: none;
+}
+
+.bookme-pro-form .picker__button--today,
+.bookme-pro-form .picker__button--clear {
+    padding: 5px 0 !important;
+    width: 33% !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    margin-bottom: 10px !important;
+    float: none !important;
+    background: white !important;
+}
+
+.bookme-pro-form .picker__day--outfocus,
+.bookme-pro-form .picker__day--disabled,
+.bookme-pro-form .bookme-pro-hide {
+    opacity: .5;
+    background: none !important;
+    pointer-events: none;
+    text-decoration: line-through;
+}
+
+.bookme-pro-form .picker__day--outfocus span,
+.bookme-pro-form .picker__day--disabled span,
+.bookme-pro-form .bookme-pro-hide span {
+    text-decoration: line-through;
+}
+
+.bookme-pro-form .picker__day--disabled:hover {
+    background: white;
+}
+
+.bookme-pro-form .picker__nav--disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.bookme-pro-form .picker__day--infocus.picker__day--selected {
+    background: none !important;
+}
+
+.bookme-pro-form .picker__day--selected {
+    background: none !important;
+}
+
+.bookme-pro-form .picker__day span {
+    display: inline-block;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+}
+
+.bookme-pro-form .picker__day:hover span, .bookme-pro-form .picker__day--selected span {
+    background: #fff;
+    color: #44619d !important;
+}
+
+.bookme-pro-row .bookme-pro-text,
+.bookme-pro-row .bookme-pro-text-center,
+.bookme-pro-row .bookme-pro-col-label {
+    padding-top: 6px;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bookme-pro-text-center {
+    text-align: center;
+}
+
+.bookme-pro-row .bookme-pro-col-label {
+    text-align: right;
+}
+
+.bookme-pro-row {
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+.bookme-pro-col-1,
+.bookme-pro-col-2,
+.bookme-pro-col-3,
+.bookme-pro-col-4,
+.bookme-pro-col-5,
+.bookme-pro-col-6,
+.bookme-pro-col-7,
+.bookme-pro-col-8,
+.bookme-pro-col-9,
+.bookme-pro-col-10,
+.bookme-pro-col-11,
+.bookme-pro-col-12 {
+    float: left !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.bookme-pro-col-12 {
+    width: 100%;
+}
+
+.bookme-pro-col-11 {
+    width: 91.66666667%;
+}
+
+.bookme-pro-col-10 {
+    width: 83.33333333%;
+}
+
+.bookme-pro-col-9 {
+    width: 75%;
+}
+
+.bookme-pro-col-8 {
+    width: 66.66666667%;
+}
+
+.bookme-pro-col-7 {
+    width: 58.33333333%;
+}
+
+.bookme-pro-col-6 {
+    width: 50%;
+}
+
+.bookme-pro-col-5 {
+    width: 41.66666667%;
+}
+
+.bookme-pro-col-4 {
+    width: 33.33333333%;
+}
+
+.bookme-pro-col-3 {
+    width: 25%;
+}
+
+.bookme-pro-col-2 {
+    width: 16.66666667%;
+}
+
+.bookme-pro-col-1 {
+    width: 8.33333333%;
+}
+
+/* Tooltip */
+
+#bookme-pro-tooltip {
+    top: -100px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100px;
+    background-color: #fff;
+    color: #555 !important;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    word-break: break-word;
+    z-index: 99999999;
+    font-size: 13px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#bookme-pro-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: #fff;
+}
+
+/* Order */
+.bookme-pro-appointment {
+    background: #fafafa;
+}
+
+.bookme-pro-appointment .bookme-pro-table {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.bookme-pro-appointment .bookme-pro-table:last-child {
+    border-bottom: none;
+}
+
+.bookme-pro-appointment .bookme-pro-table > div {
+    padding: 10px;
+}
+
+/* Other */
+.bookme-pro-holder {
+    padding-top: 20px !important;
+    font-size: 100% !important;
+}
+
+.bookme-pro-form::-webkit-input-placeholder {
+    color: #bbb !important;
+}
+
+.bookme-pro-form::-moz-placeholder {
+    color: #bbb !important;
+}
+
+/* Firefox 19+ */
+.bookme-pro-form:-moz-placeholder {
+    color: #bbb !important;
+}
+
+/* Firefox 18- */
+.bookme-pro-form:-ms-input-placeholder {
+    color: #bbb !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+    .bookme-pro-steps > li span {
+        display: none;
+    }
+
+    .bookme-pro-form-group label:empty {
+        display: none !important;
+    }
+
+    .bookme-pro-form-group > div {
+        margin-right: 0 !important;
+    }
+
+    .bookme-pro-table > * {
+        display: block;
+    }
+
+    .bookme-pro-table .bookme-pro-form-group {
+        width: 100% !important;
+    }
+
+    .bookme-pro-table .bookme-pro-form-group:last-child {
+        margin: 0;
+    }
+
+    .bookme-pro-select-mobile {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .bookme-pro-mobile-float-none {
+        float: none !important;
+    }
+
+    /* Service */
+    .bookme-pro-service-step .bookme-pro-available-date,
+    .bookme-pro-service-step .bookme-pro-week-days {
+        margin-right: 0 !important;
+    }
+
+    .bookme-pro-service-step .bookme-pro-week-days,
+    .bookme-pro-repeat-step .bookme-pro-week-days {
+        width: 100%;
+    }
+
+    .bookme-pro-service-step .bookme-pro-week-days > div {
+        display: table-cell;
+    }
+
+    .bookme-pro-service-step .bookme-pro-time-to,
+    .bookme-pro-service-step .bookme-pro-time-from {
+        display: inline-block;
+        width: 48% !important;
+    }
+
+    .bookme-pro-service-step .bookme-pro-time-to {
+        float: right !important;
+    }
+
+    .bookme-pro-service-step .bookme-pro-time-range select {
+        width: 100% !important;
+    }
+
+    .bookme-pro-not-time-screen {
+        height: auto !important;
+        margin-left: 0 !important;
+        margin-bottom: 15px;
+        clear: both;
+    }
+
+    .bookme-pro-time-step {
+        clear: both;
+    }
+
+    .bookme-pro-btn {
+        width: auto !important;
+        min-width: 0;
+        padding: 9px 18px !important;
+        background-image: none !important;
+    }
+
+    .bookme-pro-go-to-cart {
+        padding: 8px !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .bookme-pro-form .picker__holder {
+        left: 0 !important;
+    }
+
+    .bookme-pro-extra-step .bookme-pro-extras-item {
+        width: 50%;
+    }
+
+    .bookme-pro-cart .bookme-pro-mobile-version {
+        display: table-row-group;
+    }
+
+    .bookme-pro-cart .bookme-pro-desktop-version {
+        display: none;
+    }
+
+    .bookme-pro-col-12,
+    .bookme-pro-col-11,
+    .bookme-pro-col-10,
+    .bookme-pro-col-9,
+    .bookme-pro-col-8,
+    .bookme-pro-col-7,
+    .bookme-pro-col-6,
+    .bookme-pro-col-5,
+    .bookme-pro-col-4,
+    .bookme-pro-col-3,
+    .bookme-pro-col-2,
+    .bookme-pro-col-1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bookme-pro-visible-sm {
+        display: block;
+    }
+
+    .bookme-pro-visible-md {
+        display: none !important;
+    }
+
+    .bookme-pro-margin-top {
+        margin-top: 12px;
+    }
+
+    .bookme-pro-row .bookme-pro-col-label,
+    .bookme-pro-row .bookme-pro-text-center {
+        text-align: left;
+        text-transform: capitalize;
+        padding-top: 0;
+    }
+}
+
+/* intlTelInput.js */
+.iti-flag {
+    background-image: url("../images/flags.png");
+}
+
+@media only screen and (min-resolution: 2dppx) {
+    .iti-flag {
+        background-image: url("../images/flags@2x.png")
+    }
+}

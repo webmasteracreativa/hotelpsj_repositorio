@@ -1,0 +1,3 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
+<b class="h4"><?php _e( 'This feature is not available in the Bookme Pro free version.', 'bookme_pro' ) ?></b>
+<br><br><?php echo sprintf(__( 'To get access to all Bookme Pro features, lifetime free updates and 24/7 support, please upgrade to the full version of Bookme Pro.<br>Check the full version <a href="%s" target="_blank" class="alert-link">here</a>.', 'bookme_pro' ),'https://codecanyon.net/item/bookme-pro-wordpress-appointment-booking-and-scheduling-software/23939246'); ?>

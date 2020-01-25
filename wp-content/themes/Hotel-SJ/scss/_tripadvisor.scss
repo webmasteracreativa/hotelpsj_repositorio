@@ -1,0 +1,20 @@
+.item-trip{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    a:hover{
+        color: $gray;
+        cursor: pointer;
+        text-decoration: none;
+        h2{
+           text-decoration: underline; 
+        }
+    }
+    p{
+    	font-size: 20px;
+    	line-height: 22px;
+    }
+    h2,h5{
+    	font-family: 'TwCenMT-Bold',system-ui;    	
+    }
+}

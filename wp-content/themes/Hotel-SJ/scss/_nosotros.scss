@@ -1,0 +1,122 @@
+.nosotros{
+	img{
+		margin-bottom: 30px;
+	}
+	.slick-arrow{
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+		background: $dorado;
+		border: none;
+		border-radius: 50%;
+		color: white;
+		width: 30px;
+		height: 30px;
+		&.slick-prev{
+			left: 0;
+		}
+		&.slick-next{
+			right: 0;
+		}
+	}
+	.slick-dots{
+		justify-content: center;
+		li{
+			padding: 0 2px;
+			button{
+				border-radius: 50%;
+				padding: 0;
+				width: 10px;
+				height: 10px;
+				font-size: 0;
+				opacity: 0.5;
+			}			
+			&.slick-active{
+				button{
+					opacity: 1;
+					border-radius: 50%;
+					padding: 0;
+					width: 10px;
+					height: 10px;
+					font-size: 0;
+					background-color: $dorado;
+				}
+			}
+		}
+	}
+	.item-icon{
+		p{
+			font-size: 20px;
+			line-height: 20px;
+		}
+	}
+	&-one{
+		@media only screen and (min-width: 992px){
+			margin-bottom: -3%;
+		}
+		.img-one{
+			position: relative;
+			img{
+				position: relative;
+				z-index: 1;
+				@media only screen and (min-width: 992px){
+					margin-bottom: -20%;
+					margin-top: -20%;
+				}
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				z-index: 0;
+				top: -35%;
+				height: 100%;
+				width: 80%;
+				left: -5%;
+				display: none;
+				background-color: rgba($gray,0.5);
+				@media only screen and (min-width: 992px) {
+					display: block;
+				}
+			}
+		}
+	}
+	&-two{
+		position: relative;
+		padding: 30px 15px 0;
+		@media only screen and (min-width: 992px){
+			padding: 100px 15px 10px;
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			height: 100%;
+			z-index: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			max-width: 400px;
+			right: 5%;
+			background-color:$dorado;
+			z-index: 0;
+			display: none;
+			@media only screen and (min-width: 992px){
+				display: block;
+			}
+		}
+		.img-two{
+			position: relative;
+			z-index: 1;
+		}
+	}
+	ul{
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			font-size: 19px;
+		}
+	}
+}

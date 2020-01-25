@@ -1,0 +1,2929 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bookme Pro - Free Appointment Booking System\n"
+"POT-Creation-Date: 2019-06-22 13:19+0530\n"
+"PO-Revision-Date: 2019-06-22 13:18+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: backend/Backend.php:73 backend/controllers/services/templates/index.php:6
+#: backend/controllers/staff/templates/edit.php:49
+#: backend/controllers/staff/templates/staff-panel.php:64
+msgid "Services"
+msgstr ""
+
+#: backend/Backend.php:74
+#: backend/controllers/services/templates/service-panel.php:140
+#: backend/controllers/staff/templates/index.php:5
+msgid "Staff Members"
+msgstr ""
+
+#: backend/Backend.php:75
+#: backend/controllers/appointments/templates/index.php:7
+#: frontend/controllers/customer_profile/templates/short_code.php:10
+msgid "All Bookings"
+msgstr ""
+
+#: backend/Backend.php:76
+#: backend/controllers/calendar/templates/calendar.php:10
+#: backend/controllers/settings/templates/_calendarForm.php:3
+#: backend/controllers/settings/templates/index.php:20
+#: backend/controllers/tiny_mce/templates/popup.php:55
+msgid "Calendar"
+msgstr ""
+
+#: backend/Backend.php:77
+#: backend/controllers/calendar/templates/_appointment_dialog.php:116
+#: backend/controllers/customers/templates/index.php:4
+#: backend/controllers/settings/templates/index.php:23
+msgid "Customers"
+msgstr ""
+
+#: backend/Backend.php:78 backend/controllers/customers/templates/index.php:32
+#: backend/controllers/payments/templates/index.php:4
+#: backend/controllers/settings/templates/index.php:27
+msgid "Payments"
+msgstr ""
+
+#: backend/Backend.php:79 backend/controllers/appearance/templates/index.php:18
+msgid "Appearance"
+msgstr ""
+
+#: backend/Backend.php:80
+#: backend/controllers/notifications/templates/index.php:13
+msgid "Email Notifications"
+msgstr ""
+
+#: backend/Backend.php:81 backend/controllers/sms/templates/index.php:10
+msgid "SMS Notifications"
+msgstr ""
+
+#: backend/Backend.php:82
+#: backend/controllers/calendar/templates/_customer_details_dialog.php:52
+#: backend/controllers/tiny_mce/templates/appointment_list.php:64
+msgid "Custom Fields"
+msgstr ""
+
+#: backend/Backend.php:83
+msgid "Coupons"
+msgstr ""
+
+#: backend/Backend.php:84 backend/controllers/settings/templates/index.php:4
+msgid "Settings"
+msgstr ""
+
+#: backend/Backend.php:92 backend/controllers/staff/templates/index.php:7
+msgid "Profile"
+msgstr ""
+
+#: backend/controllers/appearance/Controller.php:79
+#: backend/controllers/appointments/Controller.php:58
+#: backend/controllers/calendar/Controller.php:68
+#: backend/controllers/payments/Controller.php:58 frontend/Frontend.php:74
+msgid "Today"
+msgstr ""
+
+#: backend/controllers/appearance/Controller.php:82 frontend/Frontend.php:78
+msgid "Next month"
+msgstr ""
+
+#: backend/controllers/appearance/Controller.php:83 frontend/Frontend.php:79
+msgid "Previous month"
+msgstr ""
+
+#: backend/controllers/appearance/Controller.php:86
+#: backend/controllers/notifications/Controller.php:54
+#: backend/controllers/services/Controller.php:267
+#: backend/controllers/settings/Controller.php:55
+#: backend/controllers/settings/Controller.php:61
+#: backend/controllers/settings/Controller.php:67
+#: backend/controllers/settings/Controller.php:81
+#: backend/controllers/settings/Controller.php:90
+#: backend/controllers/settings/Controller.php:101
+#: backend/controllers/settings/Controller.php:109
+#: backend/controllers/staff/Controller.php:66
+msgid "Settings saved."
+msgstr ""
+
+#: backend/controllers/appearance/Controller.php:239
+msgid "Your custom CSS was saved. Please refresh the page to see your changes."
+msgstr ""
+
+#: backend/controllers/appearance/templates/_2_time.php:12
+#: backend/controllers/appearance/templates/_3_cart.php:13
+msgid "Visible when the chosen time slot has been already booked"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:29
+#: backend/controllers/appearance/templates/_3_cart.php:66
+#: backend/controllers/appearance/templates/_3_cart.php:93
+#: backend/controllers/calendar/templates/_appointment_dialog.php:71
+#: backend/controllers/payments/templates/details.php:23
+#: backend/controllers/payments/templates/details.php:37
+#: backend/controllers/payments/templates/index.php:52
+#: backend/controllers/settings/Controller.php:132
+#: backend/controllers/tiny_mce/templates/appointment_list.php:36
+#: frontend/controllers/booking/Controller.php:492
+#: frontend/controllers/customer_profile/Controller.php:68
+#: lib/Installer.php:293 lib/NotificationCodes.php:133
+msgid "Date"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:30
+#: backend/controllers/appearance/templates/_3_cart.php:70
+#: backend/controllers/appearance/templates/_3_cart.php:97
+#: backend/controllers/settings/Controller.php:133
+#: backend/controllers/tiny_mce/templates/appointment_list.php:42
+#: frontend/controllers/booking/Controller.php:496
+#: frontend/controllers/customer_profile/Controller.php:69
+#: lib/Installer.php:176 lib/Installer.php:208 lib/Installer.php:294
+#: lib/NotificationCodes.php:136
+msgid "Time"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:32
+#: backend/controllers/appearance/templates/_3_cart.php:78
+#: backend/controllers/appearance/templates/_3_cart.php:105
+#: backend/controllers/payments/templates/details.php:42
+#: backend/controllers/services/templates/_list.php:14
+#: backend/controllers/services/templates/index.php:82
+#: backend/controllers/services/templates/service-panel.php:59
+#: backend/controllers/settings/Controller.php:135
+#: backend/controllers/staff/templates/services.php:23
+#: backend/controllers/staff/templates/services.php:58
+#: backend/controllers/staff/templates/services.php:118
+#: backend/controllers/staff/templates/services.php:152
+#: backend/controllers/tiny_mce/templates/appointment_list.php:48
+#: frontend/controllers/booking/Controller.php:504
+#: frontend/controllers/customer_profile/Controller.php:70
+#: lib/NotificationCodes.php:142
+msgid "Price"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:44
+#: backend/controllers/appearance/templates/_3_cart.php:55
+#: backend/controllers/appearance/templates/_3_cart.php:84
+#: backend/controllers/appearance/templates/_3_cart.php:111
+#: backend/controllers/appointments/Controller.php:80
+#: backend/controllers/customers/Controller.php:53
+#: backend/controllers/services/templates/_category_item.php:12
+msgid "Edit"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:45
+#: backend/controllers/appearance/templates/_3_cart.php:56
+#: backend/controllers/appearance/templates/_3_cart.php:85
+#: backend/controllers/appearance/templates/_3_cart.php:112
+msgid "Remove"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_3_cart.php:118
+#: backend/controllers/appearance/templates/_3_cart.php:125
+#: backend/controllers/payments/templates/details.php:116
+#: backend/controllers/payments/templates/index.php:66 lib/Installer.php:180
+msgid "Total"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_4_details.php:12
+msgid "Visible to non-logged in customers only"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:6
+msgid "total quantity of appointments in cart"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:7
+#: backend/controllers/notifications/templates/_codes.php:8
+#: backend/controllers/settings/templates/_calendar_codes.php:5
+#: backend/controllers/sms/templates/_codes.php:7
+msgid "booking number"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:8
+#: backend/controllers/appearance/templates/_service_codes.php:6
+#: backend/controllers/notifications/templates/_codes.php:12
+#: backend/controllers/settings/templates/_calendar_codes.php:6
+#: backend/controllers/sms/templates/_codes.php:10
+msgid "name of category"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:9
+msgid "login form"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:10
+#: backend/controllers/appearance/templates/_service_codes.php:7
+#: backend/controllers/notifications/templates/_codes.php:26
+#: backend/controllers/sms/templates/_codes.php:22
+msgid "number of persons"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:11
+#: backend/controllers/appearance/templates/_service_codes.php:8
+msgid "date of service"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:12
+#: backend/controllers/notifications/templates/_codes.php:29
+#: backend/controllers/settings/templates/_calendar_codes.php:12
+#: backend/controllers/sms/templates/_codes.php:25
+msgid "info of service"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:13
+#: backend/controllers/appearance/templates/_service_codes.php:9
+#: backend/controllers/notifications/templates/_codes.php:30
+#: backend/controllers/settings/templates/_calendar_codes.php:13
+#: backend/controllers/sms/templates/_codes.php:26
+msgid "name of service"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:14
+#: backend/controllers/notifications/templates/_codes.php:31
+#: backend/controllers/settings/templates/_calendar_codes.php:14
+#: backend/controllers/sms/templates/_codes.php:27
+msgid "price of service"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:15
+#: backend/controllers/appearance/templates/_service_codes.php:10
+msgid "time of service"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:16
+#: backend/controllers/notifications/templates/_codes.php:34
+#: backend/controllers/settings/templates/_calendar_codes.php:17
+#: backend/controllers/sms/templates/_codes.php:32
+msgid "info of staff"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:17
+#: backend/controllers/appearance/templates/_service_codes.php:11
+#: backend/controllers/notifications/templates/_codes.php:35
+#: backend/controllers/notifications/templates/_codes_staff_agenda.php:5
+#: backend/controllers/settings/templates/_calendar_codes.php:18
+#: backend/controllers/sms/templates/_codes.php:30
+#: backend/controllers/sms/templates/_codes_staff_agenda.php:5
+msgid "name of staff"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_codes.php:18
+msgid "total price of booking"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_custom_css.php:13
+#: backend/controllers/appearance/templates/_custom_css.php:24
+msgid "Edit custom CSS"
+msgstr ""
+
+#: backend/controllers/appearance/templates/_custom_css.php:43
+msgid "Set up your custom CSS styles"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:33
+msgid "Show form progress tracker"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:53
+msgid "Click on the underlined text to edit."
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:65
+msgid "Make selecting employee required"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:74
+msgid "Show service price next to employee name"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:83
+msgid "Show service duration next to service name"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:89
+msgid "Calendar Color"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:107
+msgid "Show available timeslots on calendar"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:116
+msgid "Set calendar size automatically"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:118
+msgid "Set the calendar height and width equal, according to screen size."
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:124
+msgid "Layout: One column"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:125
+msgid "Layout: Two column"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:136
+msgid "Make phone field required"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:145
+msgid "Show Login button"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:155
+msgid "Do not forget to update your email and SMS codes for customer names"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:156
+msgid "Use first and last name instead of full name"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:169
+msgid ""
+"The booking form on this step may have different set or states of its "
+"elements. Select option and click on the underlined text to edit."
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:173
+msgid "Form view in case of successful booking"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:174
+msgid "Form view in case the number of bookings exceeds the limit"
+msgstr ""
+
+#: backend/controllers/appearance/templates/index.php:175
+msgid "Form view in case of payment has been accepted for processing"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:57
+msgid "Tomorrow"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:59
+#: backend/controllers/payments/Controller.php:59
+msgid "Yesterday"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:60
+#: backend/controllers/payments/Controller.php:60
+msgid "Last 7 Days"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:61
+#: backend/controllers/payments/Controller.php:61
+msgid "Last 30 Days"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:62
+#: backend/controllers/payments/Controller.php:62
+msgid "This Month"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:63
+msgid "Next Month"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:64
+#: backend/controllers/payments/Controller.php:64
+msgid "Custom Range"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:65
+#: backend/controllers/payments/Controller.php:65 lib/Installer.php:155
+msgid "Apply"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:66
+#: backend/controllers/calendar/templates/_delete_dialog.php:28
+#: backend/controllers/payments/Controller.php:66
+#: backend/controllers/services/templates/index.php:54
+#: backend/controllers/staff/templates/_details.php:73
+#: backend/controllers/staff/templates/schedule.php:113
+#: backend/controllers/staff/templates/services.php:202
+#: backend/controllers/tiny_mce/templates/appointment_list.php:60
+#: frontend/controllers/booking/templates/_customer_duplicate_msg.php:14
+#: frontend/controllers/booking/templates/_login_form.php:38
+#: frontend/controllers/customer_profile/Controller.php:71
+#: frontend/controllers/customer_profile/templates/_rows.php:55
+#: lib/NotificationCodes.php:195 lib/NotificationCodes.php:199
+#: lib/NotificationCodes.php:211
+msgid "Cancel"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:67
+#: backend/controllers/payments/Controller.php:67
+msgid "To"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:68
+#: backend/controllers/payments/Controller.php:68
+msgid "From"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:77
+#: backend/controllers/calendar/Controller.php:75
+#: backend/controllers/customers/Controller.php:54
+#: backend/controllers/notifications/Controller.php:71
+#: backend/controllers/payments/Controller.php:80
+#: backend/controllers/services/Controller.php:57
+#: backend/controllers/sms/Controller.php:57
+#: backend/controllers/staff/Controller.php:65
+msgid "Are you sure?"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:78
+msgid "No bookings for selected period."
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:79
+#: backend/controllers/customers/Controller.php:57
+#: backend/controllers/payments/Controller.php:78
+msgid "Processing..."
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:85
+#: backend/controllers/calendar/Components.php:53
+#: backend/controllers/payments/Controller.php:81
+msgid "No result found"
+msgstr ""
+
+#: backend/controllers/appointments/Controller.php:187
+#: backend/controllers/calendar/Controller.php:407
+#: backend/controllers/payments/Controller.php:155
+#: backend/controllers/payments/Controller.php:248
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:13
+#: backend/controllers/calendar/templates/_appointment_dialog.php:17
+msgid "New Booking"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:20
+#: backend/controllers/appointments/templates/index.php:79
+msgid "No."
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:45
+#: backend/controllers/payments/templates/details.php:15
+#: backend/controllers/payments/templates/index.php:54
+msgid "Customer"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:63
+#: backend/controllers/appointments/templates/index.php:87
+#: backend/controllers/calendar/templates/_customer_details_dialog.php:34
+#: backend/controllers/payments/templates/details.php:25
+#: backend/controllers/payments/templates/index.php:59
+#: backend/controllers/tiny_mce/templates/appointment_list.php:54
+#: frontend/controllers/customer_profile/Controller.php:72
+#: lib/Installer.php:226
+msgid "Status"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:80
+msgid "Booking Date"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:82
+msgid "Customer Name"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:83
+msgid "Customer Phone"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:84
+msgid "Customer Email"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:86
+#: backend/controllers/services/templates/_list.php:13
+#: backend/controllers/services/templates/index.php:81
+#: backend/controllers/services/templates/service-panel.php:92
+msgid "Duration"
+msgstr ""
+
+#: backend/controllers/appointments/templates/index.php:88
+#: backend/controllers/calendar/templates/_appointment_dialog.php:185
+#: backend/controllers/payments/templates/_payment_details_dialog.php:10
+#: backend/controllers/payments/templates/details.php:16
+msgid "Payment"
+msgstr ""
+
+#: backend/controllers/calendar/Components.php:56
+msgid "Edit booking"
+msgstr ""
+
+#: backend/controllers/calendar/Components.php:57
+msgid "New booking"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:69
+msgid "Week"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:70
+msgid "Day"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:71
+msgid "Month"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:72
+msgid "All Day"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:73
+#: backend/controllers/calendar/templates/_delete_dialog.php:13
+#: backend/controllers/notifications/templates/_custom_notification.php:20
+#: backend/controllers/services/templates/_category_item.php:15
+#: backend/controllers/settings/templates/_companyForm.php:20
+#: backend/controllers/sms/templates/_custom_notification.php:20
+#: backend/controllers/staff/templates/edit.php:21
+#: backend/controllers/staff/templates/staff-panel.php:36
+#: lib/utils/Common.php:311
+msgid "Delete"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:74
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "No staff selected"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:80
+msgid "Recurring appointments"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:84
+#: lib/entities/CustomerAppointment.php:226
+msgid "On waiting list"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:88
+msgid "Package"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:473
+msgid "Start time must not be empty"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:475
+msgid "End time must not be empty"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:477
+msgid "End time must not be equal to start time"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:501
+#, php-format
+msgid "The number of customers should not be more than %d"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:614
+msgid "Could not save appointment in database."
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:672
+#, php-format
+msgid "%s has reached the limit of bookings for this service"
+msgstr ""
+
+#: backend/controllers/calendar/Controller.php:846 lib/Config.php:79
+#: lib/entities/Service.php:99
+msgid "Untitled"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:39
+msgid "Staff Member"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:46
+#: backend/controllers/payments/templates/details.php:36
+#: backend/controllers/payments/templates/index.php:40
+#: backend/controllers/payments/templates/index.php:56
+#: backend/controllers/tiny_mce/templates/appointment_list.php:24
+#: lib/Installer.php:195 lib/Installer.php:207 lib/Installer.php:294
+msgid "Service"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:50
+msgid "-- Select a service --"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:53
+#: lib/Installer.php:206
+msgid "Please select a service"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:59
+msgid "Location"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:79
+msgid "Period"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:88
+#: backend/controllers/settings/templates/_hoursForm.php:20
+#: backend/controllers/staff/templates/_break.php:19
+#: backend/controllers/staff/templates/schedule.php:47
+#: backend/controllers/staff/templates/schedule.php:85
+msgid "to"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:99
+msgid "Selected period doesn't match service duration"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:108
+msgid "The selected period is occupied by another appointment"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:118
+msgid "Selected / maximum"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:129
+msgid "Minimum capacity"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:136
+#: backend/controllers/calendar/templates/_customer_details_dialog.php:16
+msgid "Edit booking details"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:192
+msgid "Package schedule"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:211
+msgid "-- Search customers --"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:220
+#: backend/controllers/customers/Controller.php:59
+#: backend/controllers/customers/templates/index.php:15
+msgid "New customer"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:225
+msgid "Please select a customer"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:239
+#: backend/controllers/calendar/templates/_delete_dialog.php:19
+msgid "Send notifications"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:241
+msgid ""
+"If email or SMS notifications are enabled and you want customers or staff "
+"member to be notified about this appointment after saving, select "
+"appropriate option before clicking Save. With \"If status changed\" the "
+"notifications are sent to those customers whose status has just been "
+"changed. With \"To all customers\" the notifications are sent to everyone in "
+"the list."
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:242
+msgid ""
+"If email or SMS notifications are enabled and you want customers or yourself "
+"to be notified about this appointment after saving, select appropriate "
+"option before clicking Save. With \"If status changed\" the notifications "
+"are sent to those customers whose status has just been changed. With \"To "
+"all customers\" the notifications are sent to everyone in the list."
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:246
+msgid "Don't send"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:247
+msgid "If status changed"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:248
+msgid "To all customers"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_appointment_dialog.php:253
+msgid "Internal note"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_customer_details_dialog.php:47
+#: lib/Installer.php:187
+msgid "Number of persons"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_customer_details_dialog.php:114
+msgid "Extras"
+msgstr ""
+
+#: backend/controllers/calendar/templates/_delete_dialog.php:23
+msgid "Cancellation reason (optional)"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:16
+msgid "All"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "Select Staff Members"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "selected"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "Select All"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "Unselect All"
+msgstr ""
+
+#: backend/controllers/calendar/templates/calendar.php:26
+#: backend/controllers/services/templates/service-panel.php:141
+msgid "All Staffs Selected"
+msgstr ""
+
+#: backend/controllers/customers/Controller.php:56
+msgid "No customers found."
+msgstr ""
+
+#: backend/controllers/customers/Controller.php:58
+msgid "Edit customer"
+msgstr ""
+
+#: backend/controllers/customers/Controller.php:60
+msgid "Create customer"
+msgstr ""
+
+#: backend/controllers/customers/Controller.php:61
+#: backend/controllers/services/templates/index.php:51
+#: backend/controllers/staff/templates/_details.php:74 lib/utils/Common.php:282
+#: lib/utils/Common.php:337
+msgid "Save"
+msgstr ""
+
+#: backend/controllers/customers/Controller.php:62
+#: backend/controllers/customers/templates/index.php:10
+msgid "Quick search customer"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:14
+msgid "Add Customer"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:34
+#: backend/controllers/customers/templates/index.php:26
+#: backend/controllers/staff/templates/_details.php:11
+#: backend/controllers/staff/templates/_new.php:27
+msgid "User"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:49
+#: lib/Installer.php:185
+msgid "First name"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:53
+#: backend/controllers/customers/templates/_customer_dialog.php:60
+#: backend/controllers/customers/templates/_customer_dialog.php:70
+#: lib/Validator.php:102 lib/Validator.php:120 lib/Validator.php:138
+#: lib/Validator.php:162
+msgid "Required"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:56
+#: lib/Installer.php:186
+msgid "Last name"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:66
+#: backend/controllers/services/templates/_list.php:12
+#: backend/controllers/services/templates/index.php:40
+#: backend/controllers/services/templates/index.php:80 lib/Installer.php:184
+msgid "Name"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:75
+#: backend/controllers/settings/templates/_companyForm.php:48
+#: backend/controllers/staff/templates/_details.php:39
+#: backend/controllers/staff/templates/_new.php:53
+#: backend/controllers/staff/templates/index.php:65 lib/Installer.php:192
+msgid "Phone"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:80
+#: backend/controllers/staff/templates/_details.php:31
+#: backend/controllers/staff/templates/_new.php:45
+#: backend/controllers/staff/templates/index.php:64 lib/Installer.php:181
+msgid "Email"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:85
+#: backend/controllers/customers/templates/index.php:29 lib/Installer.php:247
+msgid "Notes"
+msgstr ""
+
+#: backend/controllers/customers/templates/_customer_dialog.php:91
+msgid "Date of birth"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:30
+msgid "Last appointment"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:31
+msgid "Total appointments"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:50
+msgid "Delete customers"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:53
+msgid ""
+"You are about to delete customers which may have WordPress accounts "
+"associated to them. Do you want to delete those accounts too (if there are "
+"any)?"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:56
+#: backend/controllers/services/templates/index.php:120
+msgid "Remember my choice"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:62
+msgid "No, delete just customers"
+msgstr ""
+
+#: backend/controllers/customers/templates/index.php:65
+#: backend/controllers/services/templates/index.php:128
+#: backend/controllers/tiny_mce/templates/appointment_list.php:12
+#: backend/controllers/tiny_mce/templates/appointment_list.php:70
+msgid "Yes"
+msgstr ""
+
+#: backend/controllers/notices/templates/limitation.php:2
+msgid "This feature is not available in the Bookme Pro free version."
+msgstr ""
+
+#: backend/controllers/notices/templates/limitation.php:3
+#, php-format
+msgid ""
+"To get access to all Bookme Pro features, lifetime free updates and 24/7 "
+"support, please upgrade to the full version of Bookme Pro.<br>Check the full "
+"version <a href=\"%s\" target=\"_blank\" class=\"alert-link\">here</a>."
+msgstr ""
+
+#: backend/controllers/notifications/Controller.php:73
+msgid "Sent successfully."
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:132
+#: backend/controllers/notifications/templates/_custom_notification.php:135
+msgid "Subject"
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:156
+#: backend/controllers/notifications/forms/Notifications.php:173
+#: lib/entities/Notification.php:96
+msgid "Message"
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:199
+msgid "Send copy to administrators"
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:217
+msgid "Sending time"
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:218
+msgid "Set the time you want the notification to be sent."
+msgstr ""
+
+#: backend/controllers/notifications/forms/Notifications.php:226
+#, php-format
+msgid "%s before"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:3
+#: backend/controllers/settings/templates/_calendar_codes.php:3
+#: backend/controllers/sms/templates/_codes.php:3
+msgid "date of appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:4
+#: backend/controllers/settings/templates/_calendar_codes.php:4
+#: backend/controllers/sms/templates/_codes.php:4
+msgid "time of appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:5
+#: backend/controllers/sms/templates/_codes.php:5
+msgid "end date of appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:6
+#: backend/controllers/sms/templates/_codes.php:6
+msgid "end time of appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:7
+#: backend/controllers/sms/templates/_codes.php:8
+msgid "URL of approve appointment link (to use inside <a> tag)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:9
+msgid "cancel appointment link"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:10
+#: backend/controllers/sms/templates/_codes.php:9
+msgid "URL of cancel appointment link (to use inside <a> tag)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:11
+msgid "reason you mentioned while deleting appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:13
+#: backend/controllers/notifications/templates/_codes_cart.php:5
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:3
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:3
+#: backend/controllers/settings/templates/_calendar_codes.php:22
+#: backend/controllers/sms/templates/_codes.php:11
+#: backend/controllers/sms/templates/_codes_cart.php:5
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:3
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:3
+msgid "email of client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:14
+#: backend/controllers/notifications/templates/_codes_cart.php:6
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:4
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:4
+#: backend/controllers/settings/templates/_calendar_codes.php:23
+#: backend/controllers/sms/templates/_codes.php:12
+#: backend/controllers/sms/templates/_codes_cart.php:6
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:4
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:4
+msgid "full name of client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:15
+#: backend/controllers/notifications/templates/_codes_cart.php:7
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:5
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:5
+#: backend/controllers/settings/templates/_calendar_codes.php:24
+#: backend/controllers/sms/templates/_codes.php:13
+#: backend/controllers/sms/templates/_codes_cart.php:7
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:5
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:5
+msgid "first name of client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:16
+#: backend/controllers/notifications/templates/_codes_cart.php:8
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:6
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:6
+#: backend/controllers/settings/templates/_calendar_codes.php:25
+#: backend/controllers/sms/templates/_codes.php:14
+#: backend/controllers/sms/templates/_codes_cart.php:8
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:6
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:6
+msgid "last name of client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:17
+#: backend/controllers/notifications/templates/_codes_cart.php:9
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:7
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:7
+#: backend/controllers/settings/templates/_calendar_codes.php:26
+#: backend/controllers/sms/templates/_codes.php:15
+#: backend/controllers/sms/templates/_codes_cart.php:9
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:7
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:7
+msgid "phone of client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:18
+#: backend/controllers/notifications/templates/_codes_cart.php:10
+#: backend/controllers/settings/templates/_calendar_codes.php:8
+#: backend/controllers/sms/templates/_codes.php:16
+#: backend/controllers/sms/templates/_codes_cart.php:10
+msgid "name of company"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:19
+#: backend/controllers/notifications/templates/_codes_cart.php:11
+msgid "company logo"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:20
+#: backend/controllers/notifications/templates/_codes_cart.php:12
+#: backend/controllers/settings/templates/_calendar_codes.php:7
+#: backend/controllers/sms/templates/_codes.php:17
+#: backend/controllers/sms/templates/_codes_cart.php:11
+msgid "address of company"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:21
+#: backend/controllers/notifications/templates/_codes_cart.php:13
+#: backend/controllers/settings/templates/_calendar_codes.php:9
+#: backend/controllers/sms/templates/_codes.php:18
+#: backend/controllers/sms/templates/_codes_cart.php:12
+msgid "company phone"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:22
+#: backend/controllers/notifications/templates/_codes_cart.php:14
+#: backend/controllers/settings/templates/_calendar_codes.php:10
+#: backend/controllers/sms/templates/_codes.php:19
+#: backend/controllers/sms/templates/_codes_cart.php:13
+msgid "company web-site address"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:23
+#: backend/controllers/settings/templates/_calendar_codes.php:27
+#: backend/controllers/sms/templates/_codes.php:20
+msgid "combined values of all custom fields"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:24
+msgid "combined values of all custom fields (formatted in 2 columns)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:25
+#: backend/controllers/sms/templates/_codes.php:21
+msgid ""
+"URL for adding event to client's Google Calendar (to use inside <a> tag)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:27
+#: backend/controllers/notifications/templates/_codes_cart.php:15
+#: backend/controllers/settings/templates/_calendar_codes.php:29
+#: backend/controllers/sms/templates/_codes.php:23
+#: backend/controllers/sms/templates/_codes_cart.php:14
+msgid "payment type"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:28
+#: backend/controllers/sms/templates/_codes.php:24
+msgid "URL of reject appointment link (to use inside <a> tag)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:32
+#: backend/controllers/sms/templates/_codes.php:28
+msgid "duration of service"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:33
+#: backend/controllers/settings/templates/_calendar_codes.php:16
+#: backend/controllers/sms/templates/_codes.php:29
+msgid "email of staff"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:36
+#: backend/controllers/settings/templates/_calendar_codes.php:19
+#: backend/controllers/sms/templates/_codes.php:31
+msgid "phone of staff"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:37
+msgid "photo of staff"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes.php:38
+#: backend/controllers/notifications/templates/_codes_cart.php:16
+#: backend/controllers/settings/templates/_calendar_codes.php:31
+#: backend/controllers/sms/templates/_codes.php:33
+#: backend/controllers/sms/templates/_codes_cart.php:15
+msgid "total price of booking (sum of all cart items after applying coupon)"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_cart.php:3
+#: backend/controllers/sms/templates/_codes_cart.php:3
+msgid "cart information"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_cart.php:4
+#: backend/controllers/sms/templates/_codes_cart.php:4
+msgid "cart information with cancel"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:8
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:8
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:8
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:8
+msgid "name of your company"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:9
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:9
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:9
+msgid "your company logo"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:10
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:10
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:10
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:9
+msgid "address of your company"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:11
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:11
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:11
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:10
+msgid "your company phone"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_birthday_greeting.php:12
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:12
+#: backend/controllers/sms/templates/_codes_client_birthday_greeting.php:12
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:11
+msgid "this web-site address"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:13
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:12
+msgid "customer new username"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:14
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:13
+msgid "customer new password"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_client_new_wp_user.php:15
+#: backend/controllers/sms/templates/_codes_client_new_wp_user.php:14
+msgid "site address"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_staff_agenda.php:3
+#: backend/controllers/sms/templates/_codes_staff_agenda.php:3
+msgid "date of next day"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_codes_staff_agenda.php:4
+#: backend/controllers/sms/templates/_codes_staff_agenda.php:4
+msgid "staff agenda for next day"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:17
+#: backend/controllers/sms/templates/_custom_notification.php:17
+msgid "Custom notification"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:30
+#: backend/controllers/payments/templates/details.php:24
+#: backend/controllers/payments/templates/index.php:20
+#: backend/controllers/payments/templates/index.php:53
+#: backend/controllers/sms/templates/_custom_notification.php:30
+msgid "Type"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:32
+#: backend/controllers/sms/templates/_custom_notification.php:32
+msgid "Reminder notification"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:33
+#: backend/controllers/sms/templates/_custom_notification.php:33
+msgid "Appointment date and time"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:34
+#: backend/controllers/sms/templates/_custom_notification.php:34
+msgid "Customer's birthday"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:35
+#: backend/controllers/sms/templates/_custom_notification.php:35
+msgid "Last client appointment"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:49
+#: backend/controllers/sms/templates/_custom_notification.php:49
+msgid "With status"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:51
+#: backend/controllers/sms/templates/_custom_notification.php:51
+#: backend/controllers/tiny_mce/templates/popup.php:38
+#: frontend/controllers/booking/Controller.php:1320 lib/Installer.php:198
+msgid "Any"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:59
+#: backend/controllers/notifications/templates/_custom_notification.php:107
+#: backend/controllers/sms/templates/_custom_notification.php:59
+#: backend/controllers/sms/templates/_custom_notification.php:104
+msgid "Send"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:67
+msgid "days"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:70
+#: backend/controllers/notifications/templates/_custom_notification.php:81
+#: backend/controllers/notifications/templates/_custom_notification.php:112
+#: backend/controllers/sms/templates/_custom_notification.php:69
+#: backend/controllers/sms/templates/_custom_notification.php:79
+#: backend/controllers/sms/templates/_custom_notification.php:109
+msgid "before"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:71
+#: backend/controllers/notifications/templates/_custom_notification.php:85
+#: backend/controllers/notifications/templates/_custom_notification.php:116
+#: backend/controllers/sms/templates/_custom_notification.php:70
+#: backend/controllers/sms/templates/_custom_notification.php:83
+#: backend/controllers/sms/templates/_custom_notification.php:113
+msgid "after"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:83
+#: backend/controllers/notifications/templates/_custom_notification.php:114
+#: backend/controllers/sms/templates/_custom_notification.php:81
+#: backend/controllers/sms/templates/_custom_notification.php:111
+msgid "on the same day"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:88
+#: backend/controllers/notifications/templates/_custom_notification.php:119
+#: backend/controllers/sms/templates/_custom_notification.php:86
+#: backend/controllers/sms/templates/_custom_notification.php:116
+msgid "at"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:144
+#: backend/controllers/sms/templates/_custom_notification.php:141
+msgid "Recipient"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:148
+#: backend/controllers/sms/templates/_custom_notification.php:145
+msgid "Client"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:152
+#: backend/controllers/sms/templates/_custom_notification.php:149
+#: backend/controllers/tiny_mce/templates/appointment_list.php:30
+msgid "Staff"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:156
+#: backend/controllers/sms/templates/_custom_notification.php:153
+msgid "Administrators"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_custom_notification.php:165
+#: backend/controllers/notifications/templates/index.php:75
+#: backend/controllers/sms/templates/_custom_notification.php:162
+#: backend/controllers/sms/templates/index.php:95
+msgid "Codes"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:11
+#: backend/controllers/notifications/templates/index.php:109
+msgid "Test Email Notifications"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:32
+msgid "To email"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:39
+#: backend/controllers/notifications/templates/index.php:20
+msgid "Sender name"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:46
+#: backend/controllers/notifications/templates/index.php:27
+msgid "Sender email"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:56
+#: backend/controllers/notifications/templates/index.php:39
+msgid "Reply directly to customers"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:60
+#: backend/controllers/settings/Controller.php:155
+#: backend/controllers/settings/Controller.php:156
+#: backend/controllers/settings/Controller.php:157
+#: backend/controllers/settings/templates/_customers.php:8
+#: backend/controllers/settings/templates/_paymentsForm.php:39
+#: lib/utils/Common.php:97
+msgid "Disabled"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:61
+#: backend/controllers/settings/templates/_paymentsForm.php:39
+#: lib/utils/Common.php:98
+msgid "Enabled"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:67
+#: backend/controllers/notifications/templates/index.php:34
+msgid "Send emails as"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:70
+#: backend/controllers/notifications/templates/index.php:35
+msgid "HTML"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:71
+#: backend/controllers/notifications/templates/index.php:35
+msgid "Text"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:79
+msgid "Notifications"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+msgid "Select Notifications"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+msgid "No selected"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:80
+msgid "All Notifications Selected"
+msgstr ""
+
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:102
+#: backend/controllers/notifications/templates/_test_email_notifications_modal.php:109
+#: backend/controllers/settings/Controller.php:149
+#: backend/controllers/staff/Controller.php:412
+#: backend/controllers/staff/templates/_break.php:31
+msgid "Close"
+msgstr ""
+
+#: backend/controllers/notifications/templates/index.php:34
+msgid ""
+"HTML allows formatting, colors, fonts, positioning, etc. With Text you must "
+"use Text mode of rich-text editors below. On some servers only text emails "
+"are sent successfully."
+msgstr ""
+
+#: backend/controllers/notifications/templates/index.php:39
+msgid ""
+"If this option is enabled then the email address of the customer is used as "
+"a sender email address for notifications sent to staff members and "
+"administrators."
+msgstr ""
+
+#: backend/controllers/notifications/templates/index.php:43
+#: backend/controllers/sms/templates/index.php:63
+msgid "Single"
+msgstr ""
+
+#: backend/controllers/payments/Controller.php:63
+msgid "Last Month"
+msgstr ""
+
+#: backend/controllers/payments/Controller.php:77
+msgid "No payments for selected period and criteria."
+msgstr ""
+
+#: backend/controllers/payments/Controller.php:79
+#: backend/controllers/staff/templates/edit.php:44
+#: backend/controllers/staff/templates/staff-panel.php:59 lib/Installer.php:212
+msgid "Details"
+msgstr ""
+
+#: backend/controllers/payments/Controller.php:150
+msgid "See details for more items"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:38
+#: backend/controllers/payments/templates/index.php:31
+#: backend/controllers/payments/templates/index.php:55
+msgid "Provider"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:40
+#: backend/controllers/settings/Controller.php:136
+msgid "Deposit"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:91
+msgid "Subtotal"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:99 lib/Installer.php:179
+msgid "Discount"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:122
+msgid "Paid"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:126
+msgid "Due"
+msgstr ""
+
+#: backend/controllers/payments/templates/details.php:131
+msgid "Complete payment"
+msgstr ""
+
+#: backend/controllers/payments/templates/index.php:57
+msgid "Appointment Date"
+msgstr ""
+
+#: backend/controllers/payments/templates/index.php:58
+msgid "Amount"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:56
+#: backend/controllers/staff/Controller.php:67
+msgid "Min capacity should not be greater than max capacity."
+msgstr ""
+
+#: backend/controllers/services/Controller.php:59
+#: backend/controllers/services/templates/_category_item.php:5
+#: backend/controllers/services/templates/_list.php:27
+#: backend/controllers/staff/templates/_list_item.php:10
+msgid "Reorder"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:293
+#: backend/controllers/services/Controller.php:308
+msgid "Specified order"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:294
+#: backend/controllers/services/Controller.php:309
+msgid "Least occupied that day"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:295
+#: backend/controllers/services/Controller.php:310
+msgid "Most occupied that day"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:296
+#: backend/controllers/services/Controller.php:311
+msgid "Least expensive"
+msgstr ""
+
+#: backend/controllers/services/Controller.php:297
+#: backend/controllers/services/Controller.php:312
+msgid "Most expensive"
+msgstr ""
+
+#: backend/controllers/services/templates/_list.php:48
+#, php-format
+msgid "%d service"
+msgid_plural "%d services"
+msgstr[0] ""
+msgstr[1] ""
+
+#: backend/controllers/services/templates/index.php:13
+#: backend/controllers/services/templates/index.php:67
+msgid "All Services"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:24
+msgid "New Category"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:35
+msgid "Add new category"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:71
+#: backend/controllers/staff/templates/services.php:211
+msgid "Add Service"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:83
+msgid "Action"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:89
+#: backend/controllers/staff/templates/services.php:207
+msgid "No services found. Please add services."
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:113
+msgid "Update service setting"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:116
+msgid ""
+"You are about to change a service setting which is also configured "
+"separately for each staff member. Do you want to update it in staff settings "
+"too?"
+msgstr ""
+
+#: backend/controllers/services/templates/index.php:126
+msgid "No, update just here in services"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:17
+msgid "Add new Service"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:40
+msgid "Title"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:47
+msgid "Color"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:67
+#: backend/controllers/staff/templates/services.php:31
+#: backend/controllers/staff/templates/services.php:71
+#: backend/controllers/staff/templates/services.php:124
+#: backend/controllers/staff/templates/services.php:165
+msgid "Capacity (min and max)"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:68
+msgid "How many customers you want in a single time period."
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:108
+msgid "Start and end times of the appointment"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:109
+msgid ""
+"Allows to set the start and end times for an appointment for services with "
+"the duration of 1 day or longer. This time will be displayed in "
+"notifications to customers."
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:129
+#: backend/controllers/tiny_mce/templates/appointment_list.php:18
+#: lib/Installer.php:169
+msgid "Category"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:131
+#: lib/Config.php:91 lib/entities/Service.php:114
+msgid "Uncategorized"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:152
+#: backend/controllers/staff/templates/_details.php:48
+#: backend/controllers/staff/templates/_new.php:62
+msgid "Info"
+msgstr ""
+
+#: backend/controllers/services/templates/service-panel.php:155
+#: backend/controllers/staff/templates/_details.php:50
+#: backend/controllers/staff/templates/_new.php:64
+#, php-format
+msgid "This text can be inserted into notifications with %s code."
+msgstr ""
+
+#: backend/controllers/settings/Controller.php:125
+#, php-format
+msgid ""
+"WooCommerce cart is not set up. Follow the <a href=\"%s\">link</a> to "
+"correct this problem."
+msgstr ""
+
+#: backend/controllers/settings/Controller.php:150
+#: backend/controllers/staff/Controller.php:413
+msgid "Repeat every year"
+msgstr ""
+
+#: backend/controllers/settings/Controller.php:151
+#: backend/controllers/staff/Controller.php:414
+msgid "We are not working on this day"
+msgstr ""
+
+#: backend/controllers/settings/Controller.php:251
+msgid "Select product"
+msgstr ""
+
+#: backend/controllers/settings/forms/BusinessHours.php:56
+#: backend/controllers/staff/templates/schedule.php:5
+msgid "OFF"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendarForm.php:4
+msgid "Set order of the fields in calendar for"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendarForm.php:6
+msgid "Appointment with one participant"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendarForm.php:7
+msgid "Appointment with many participants"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendarForm.php:12
+#: backend/controllers/settings/templates/_calendarForm.php:17
+msgid "Enter a value"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendar_codes.php:11
+msgid "capacity of service"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendar_codes.php:15
+msgid "number of persons already in the list"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendar_codes.php:28
+msgid "status of payment"
+msgstr ""
+
+#: backend/controllers/settings/templates/_calendar_codes.php:30
+msgid "status of appointment"
+msgstr ""
+
+#: backend/controllers/settings/templates/_companyForm.php:26
+#: backend/controllers/staff/templates/edit.php:27
+#: backend/controllers/staff/templates/staff-panel.php:42
+msgid "Image"
+msgstr ""
+
+#: backend/controllers/settings/templates/_companyForm.php:38
+msgid "Company name"
+msgstr ""
+
+#: backend/controllers/settings/templates/_companyForm.php:44
+msgid "Address"
+msgstr ""
+
+#: backend/controllers/settings/templates/_companyForm.php:49
+msgid "Website"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:7
+msgid "Phone field default country"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:7
+msgid ""
+"Select default country for the phone field in the 'Details' step of booking. "
+"You can also let Bookme Pro determine the country based on the IP address of "
+"the client."
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:8
+msgid "Guess country by user's IP address"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:9
+msgid "Default country code"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:9
+msgid ""
+"Your clients must have their phone numbers in international format in order "
+"to receive text messages. However you can specify a default country code "
+"that will be used as a prefix for all phone numbers that do not start with "
+"\"+\" or \"00\". E.g. if you enter \"1\" as the default country code and a "
+"client enters their phone as \"(600) 555-2222\" the resulting phone number "
+"to send the SMS to will be \"+1600555222\"."
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:10
+msgid "Remember personal information in cookies"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:10
+msgid ""
+"If this setting is enabled then returning customers will have their personal "
+"information fields filled in at the Details step with the data previously "
+"saved in cookies."
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:11
+msgid "Show confirmation dialog before updating customer's data"
+msgstr ""
+
+#: backend/controllers/settings/templates/_customers.php:11
+msgid ""
+"If this option is enabled and customer enters contact info different from "
+"the previous order, a warning message will appear asking to update the data."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:8
+msgid "Time slot length"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:8
+msgid ""
+"Select a time interval which will be used as a step when building all time "
+"slots in the system."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:10
+msgid "Service duration as slot length"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:10
+msgid ""
+"Enable this option to make slot length equal to service duration at the Time "
+"step of booking form."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:11
+msgid "Default appointment status"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:11
+msgid "Select status for newly booked appointments."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:11
+#: lib/entities/CustomerAppointment.php:222 lib/entities/Payment.php:91
+msgid "Pending"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:11
+#: lib/entities/CustomerAppointment.php:223
+msgid "Approved"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:12
+msgid "Number of days available for booking"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:12
+msgid "Set how far in the future the clients can book appointments."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:13
+msgid "Display available time slots in client's time zone"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:13
+msgid "The value is taken from client’s browser."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:14
+msgid "Allow staff members to edit their profiles"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:14
+msgid ""
+"If this option is enabled then all staff members who are associated with "
+"WordPress users will be able to edit their own profiles, services, schedule "
+"and days off."
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:15
+msgid "Method to include Bookme Pro JavaScript and CSS files on the page"
+msgstr ""
+
+#: backend/controllers/settings/templates/_generalForm.php:15
+msgid ""
+"With \"Enqueue\" method the JavaScript and CSS files of Bookme Pro will be "
+"included on all pages of your website. This method should work with all "
+"themes. With \"Print\" method the files will be included only on the pages "
+"which contain Bookme Pro booking form. This method may not work with all "
+"themes."
+msgstr ""
+
+#: backend/controllers/settings/templates/_hoursForm.php:6
+msgid ""
+"Please note, the business hours below work as a template for all new staff "
+"members. To render a list of available time slots the system takes into "
+"account only staff members' schedule, not the company business hours. Be "
+"sure to check the schedule of your staff members if you have some unexpected "
+"behavior of the booking system."
+msgstr ""
+
+#: backend/controllers/settings/templates/_paymentsForm.php:11
+msgid "Currency"
+msgstr ""
+
+#: backend/controllers/settings/templates/_paymentsForm.php:24
+msgid "Price format"
+msgstr ""
+
+#: backend/controllers/settings/templates/_paymentsForm.php:36
+msgid "Service paid locally"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:8
+msgid "Approve appointment URL (success)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:8
+msgid ""
+"Set the URL of a page that is shown to staff after they successfully "
+"approved the appointment."
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:9
+msgid "Approve appointment URL (denied)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:9
+msgid ""
+"Set the URL of a page that is shown to staff when the approval of "
+"appointment cannot be done (due to capacity, changed status, etc.)."
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:10
+msgid "Cancel appointment URL (success)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:10
+msgid ""
+"Set the URL of a page that is shown to clients after they successfully "
+"cancelled their appointment."
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:11
+msgid "Cancel appointment URL (denied)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:11
+msgid ""
+"Set the URL of a page that is shown to clients when the cancellation of "
+"appointment is not available anymore."
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:12
+msgid "Reject appointment URL (success)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:12
+msgid ""
+"Set the URL of a page that is shown to staff after they successfully "
+"rejected the appointment."
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:13
+msgid "Reject appointment URL (denied)"
+msgstr ""
+
+#: backend/controllers/settings/templates/_urlForm.php:13
+msgid ""
+"Set the URL of a page that is shown to staff when the rejection of "
+"appointment cannot be done (due to changed status, etc.)."
+msgstr ""
+
+#: backend/controllers/settings/templates/index.php:11
+msgid "General"
+msgstr ""
+
+#: backend/controllers/settings/templates/index.php:14
+msgid "URL Settings"
+msgstr ""
+
+#: backend/controllers/settings/templates/index.php:17
+msgid "Company"
+msgstr ""
+
+#: backend/controllers/settings/templates/index.php:31
+msgid "Business Hours"
+msgstr ""
+
+#: backend/controllers/settings/templates/index.php:34
+msgid "Holidays"
+msgstr ""
+
+#: backend/controllers/sms/Controller.php:90
+msgid "Setting saved."
+msgstr ""
+
+#: backend/controllers/sms/Controller.php:104
+msgid "SMS has been sent successfully."
+msgstr ""
+
+#: backend/controllers/sms/templates/_custom_notification.php:132
+msgid "Notification name"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:18
+#, php-format
+msgid ""
+"BookmePro uses <a href=\"%s\" target=\"_blank\">Twilio SMS API</a> for "
+"sending SMS. Just follow the below steps and enjoy the SMS service."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:21
+#, php-format
+msgid ""
+"Visit to <a href=\"%s\" target=\"_blank\">Twilio website</a> and sign up or "
+"log in."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:22
+#, php-format
+msgid "After that go to <a href=\"%s\" target=\"_blank\">Console page.</a>"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:23
+msgid "And now copy ACCOUNT SID and AUTH TOKEN and paste below."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:24
+msgid "After that create Twilio phone number and paste below."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:25
+msgid "That's it. Now enjoy the SMS service."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:31
+msgid "Account SID"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:32
+msgid "Get Twilio Account SID from Twilio website."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:40
+msgid "Auth Token"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:41
+msgid "Get Twilio Auth Token from Twilio website"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:48
+msgid "Twilio Phone Number"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:49
+msgid "Get Twilio Phone number from Twilio website"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:55
+msgid "Admin Phone Number"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:56
+msgid "Admin phone number for SMS notification."
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:126
+msgid "Send test SMS"
+msgstr ""
+
+#: backend/controllers/sms/templates/index.php:128
+msgid "SMS charges may be applied by Twilio."
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:68
+msgid "All locations"
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:68
+msgid "No locations selected"
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:226
+msgid "The start time must be less than the end one"
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:237
+msgid "The requested interval is not available"
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:270
+msgid "Error adding the break interval"
+msgstr ""
+
+#: backend/controllers/staff/Controller.php:348 lib/base/Controller.php:29
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: backend/controllers/staff/templates/_break.php:8
+msgid "Delete break"
+msgstr ""
+
+#: backend/controllers/staff/templates/_breaks.php:8
+#: backend/controllers/staff/templates/schedule.php:25
+msgid "Breaks"
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:6
+#: backend/controllers/staff/templates/_new.php:23
+msgid "Full name"
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:14
+#: backend/controllers/staff/templates/_new.php:30
+msgid ""
+"If this staff member requires separate login to access personal calendar, a "
+"regular WP user needs to be created for this purpose."
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:15
+#: backend/controllers/staff/templates/_new.php:31
+msgid ""
+"User with \"Administrator\" role will have access to calendars and settings "
+"of all staff members, user with another role will have access only to "
+"personal calendar and settings."
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:16
+#: backend/controllers/staff/templates/_new.php:32
+msgid ""
+"If you leave this field blank, this staff member will not be able to access "
+"personal calendar using WP backend."
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:20
+#: backend/controllers/staff/templates/_new.php:36
+msgid "Select from WP users"
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:56
+#: backend/controllers/staff/templates/_new.php:70
+msgid "Visibility"
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:58
+#: backend/controllers/staff/templates/_new.php:72
+msgid ""
+"To make staff member invisible to your customers set the visibility to "
+"\"Private\"."
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:61
+#: backend/controllers/staff/templates/_new.php:75
+msgid "Public"
+msgstr ""
+
+#: backend/controllers/staff/templates/_details.php:62
+#: backend/controllers/staff/templates/_new.php:76
+msgid "Private"
+msgstr ""
+
+#: backend/controllers/staff/templates/_new.php:7
+#: backend/controllers/staff/templates/index.php:52
+msgid "Add Employee"
+msgstr ""
+
+#: backend/controllers/staff/templates/edit.php:54
+#: backend/controllers/staff/templates/staff-panel.php:69
+msgid "Schedule"
+msgstr ""
+
+#: backend/controllers/staff/templates/edit.php:60
+#: backend/controllers/staff/templates/staff-panel.php:75
+msgid "Days off"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:14
+msgid "Welcome to Bookme Pro!"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:15
+msgid "Thank you for using our plugin."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:16
+msgid ""
+"Bookme Pro offers a simple solution for making appointments. With our plugin "
+"you will be able to easily manage your availability time and handle the flow "
+"of your clients."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:17
+msgid ""
+"To start using Bookme Pro, you need to follow these steps which are the "
+"minimum requirements to get it running!"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:18
+#, php-format
+msgid ""
+"And also check the Bookme Pro full version <a href=\"%s\" target=\"_blank"
+"\">here</a>, with more advanced features."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:20
+msgid "Add staff members."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:21
+msgid "Add services and assign them to staff members."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:22
+msgid ""
+"Go to Posts/Pages and use [bookme-pro-form] shortcode to publish the booking "
+"form on your website."
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:27
+msgid "Add Staff Members"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:31
+msgid "Add Services"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:40
+msgid "Total Members: "
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:63
+msgid "Name & Visibility"
+msgstr ""
+
+#: backend/controllers/staff/templates/index.php:79
+msgid "No staff members found."
+msgstr ""
+
+#: backend/controllers/staff/templates/schedule.php:72
+msgid "add break"
+msgstr ""
+
+#: backend/controllers/staff/templates/services.php:15
+msgid "All services"
+msgstr ""
+
+#: backend/controllers/tiny_mce/Plugin.php:46
+#: backend/controllers/tiny_mce/Plugin.php:51
+#: backend/controllers/tiny_mce/templates/assets.php:363
+msgid "Add Bookme Pro booking form"
+msgstr ""
+
+#: backend/controllers/tiny_mce/Plugin.php:47
+#: backend/controllers/tiny_mce/Plugin.php:52
+#: backend/controllers/tiny_mce/templates/assets.php:82
+#: backend/controllers/tiny_mce/templates/assets.php:380
+msgid "Add Bookme Pro appointments list"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/appointment_list.php:10
+msgid "Titles"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/appointment_list.php:16
+msgid "Columns"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/appointment_list.php:77
+#: backend/controllers/tiny_mce/templates/popup.php:66
+msgid "Insert"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/assets.php:72
+msgid "Insert Booking Form"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/assets.php:344
+msgid "Bookme Pro Shortcode"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:8
+msgid "Default value for category select"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:12 lib/Installer.php:197
+msgid "Select category"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:15
+#: backend/controllers/tiny_mce/templates/popup.php:28
+#: backend/controllers/tiny_mce/templates/popup.php:41
+#: backend/controllers/tiny_mce/templates/popup.php:50
+#: backend/controllers/tiny_mce/templates/popup.php:58
+msgid "Hide this field"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:21
+msgid "Default value for service select"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:25 lib/Installer.php:199
+msgid "Select service"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:29
+msgid ""
+"Please be aware that a value in this field is required in the frontend. If "
+"you choose to hide this field, please be sure to select a default value for "
+"it"
+msgstr ""
+
+#: backend/controllers/tiny_mce/templates/popup.php:34
+msgid "Default value for employee select"
+msgstr ""
+
+#: frontend/Frontend.php:80
+msgid "Show more"
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:258
+msgid "Form ID error."
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:303
+#: frontend/controllers/booking/Controller.php:376
+#: frontend/controllers/booking/Controller.php:417
+#: frontend/controllers/booking/Controller.php:526
+#: frontend/controllers/booking/Controller.php:661
+#: frontend/controllers/booking/Controller.php:709
+#: frontend/controllers/booking/Controller.php:860
+#: frontend/controllers/booking/Controller.php:909
+#: frontend/controllers/booking/Controller.php:1157
+#: frontend/controllers/booking/Controller.php:1208
+msgid "Session error."
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:848
+msgid "Pay locally is not available."
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:912
+#: frontend/controllers/booking/Controller.php:937
+msgid "Invalid gateway."
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:1145
+#: frontend/controllers/booking/Controller.php:1153
+msgid "This coupon code is invalid or has been used"
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:1179
+msgid "Incorrect username or password."
+msgstr ""
+
+#: frontend/controllers/booking/Controller.php:1390
+#: frontend/controllers/booking/templates/_login_form.php:36
+msgid "Log In"
+msgstr ""
+
+#: frontend/controllers/booking/templates/2_time.php:26
+msgid "No time is available for selected criteria."
+msgstr ""
+
+#: frontend/controllers/booking/templates/_customer_duplicate_msg.php:6
+msgid "Data already in use"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_customer_duplicate_msg.php:13
+msgid "Update"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_login_form.php:7
+#: lib/Installer.php:213
+msgid "Login"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_login_form.php:12
+msgid "Username"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_login_form.php:18
+msgid "Password"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_login_form.php:28
+msgid "Remember Me"
+msgstr ""
+
+#: frontend/controllers/booking/templates/_login_form.php:34
+msgid "Lost your password?"
+msgstr ""
+
+#: frontend/controllers/booking/templates/redirection.php:9
+msgid "Page Redirection"
+msgstr ""
+
+#: frontend/controllers/booking/templates/redirection.php:12
+#, php-format
+msgid ""
+"If you are not redirected automatically, follow the <a href=\"%s\">link</a>."
+msgstr ""
+
+#: frontend/controllers/customer_profile/templates/_rows.php:59
+msgid "Not allowed"
+msgstr ""
+
+#: frontend/controllers/customer_profile/templates/_rows.php:62
+msgid "Expired"
+msgstr ""
+
+#: frontend/controllers/customer_profile/templates/short_code.php:31
+msgid "No appointments found."
+msgstr ""
+
+#: frontend/controllers/customer_profile/templates/short_code.php:38
+msgid "Show past appointments"
+msgstr ""
+
+#: lib/Cart.php:348
+#, php-format
+msgid " and %d more item"
+msgid_plural " and %d more items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Installer.php:27 lib/Installer.php:41
+msgid "Your appointment information"
+msgstr ""
+
+#: lib/Installer.php:28 lib/Installer.php:42
+msgid ""
+"Dear {client_name}.\n"
+"\n"
+"This is a confirmation that you have booked {service_name}.\n"
+"\n"
+"We are waiting you at {company_address} on {appointment_date} at "
+"{appointment_time}.\n"
+"\n"
+"Thank you for choosing our company.\n"
+"\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:34 lib/Installer.php:48
+msgid "New booking information"
+msgstr ""
+
+#: lib/Installer.php:35 lib/Installer.php:49
+msgid ""
+"Hello.\n"
+"\n"
+"You have a new booking.\n"
+"\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:55 lib/Installer.php:62
+msgid "Booking cancellation"
+msgstr ""
+
+#: lib/Installer.php:56
+msgid ""
+"Dear {client_name}.\n"
+"\n"
+"You have cancelled your booking of {service_name} on {appointment_date} at "
+"{appointment_time}.\n"
+"\n"
+"Thank you for choosing our company.\n"
+"\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:63
+msgid ""
+"Hello.\n"
+"\n"
+"The following booking has been cancelled.\n"
+"\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:69 lib/Installer.php:76
+msgid "Booking rejection"
+msgstr ""
+
+#: lib/Installer.php:70
+msgid ""
+"Dear {client_name}.\n"
+"\n"
+"Your booking of {service_name} on {appointment_date} at {appointment_time} "
+"has been rejected.\n"
+"\n"
+"Reason: {cancellation_reason}\n"
+"\n"
+"Thank you for choosing our company.\n"
+"\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:77
+msgid ""
+"Hello.\n"
+"\n"
+"The following booking has been rejected.\n"
+"\n"
+"Reason: {cancellation_reason}\n"
+"\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:85 lib/Installer.php:99
+msgid ""
+"Dear {client_name}.\n"
+"This is a confirmation that you have booked {service_name}.\n"
+"We are waiting you at {company_address} on {appointment_date} at "
+"{appointment_time}.\n"
+"Thank you for choosing our company.\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:92 lib/Installer.php:106
+msgid ""
+"Hello.\n"
+"You have a new booking.\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:113
+msgid ""
+"Dear {client_name}.\n"
+"You have cancelled your booking of {service_name} on {appointment_date} at "
+"{appointment_time}.\n"
+"Thank you for choosing our company.\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:120
+msgid ""
+"Hello.\n"
+"The following booking has been cancelled.\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:127
+msgid ""
+"Dear {client_name}.\n"
+"Your booking of {service_name} on {appointment_date} at {appointment_time} "
+"has been rejected.\n"
+"Reason: {cancellation_reason}\n"
+"Thank you for choosing our company.\n"
+"{company_name}\n"
+"{company_phone}\n"
+"{company_website}"
+msgstr ""
+
+#: lib/Installer.php:134
+msgid ""
+"Hello.\n"
+"The following booking has been rejected.\n"
+"Reason: {cancellation_reason}\n"
+"Service: {service_name}\n"
+"Date: {appointment_date}\n"
+"Time: {appointment_time}\n"
+"Client name: {client_name}\n"
+"Client phone: {client_phone}\n"
+"Client email: {client_email}"
+msgstr ""
+
+#: lib/Installer.php:156
+msgid "Back"
+msgstr ""
+
+#: lib/Installer.php:157
+msgid "Book Now"
+msgstr ""
+
+#: lib/Installer.php:158
+msgid "Book More"
+msgstr ""
+
+#: lib/Installer.php:159
+msgid ""
+"Below you can find a list of services selected for booking.\n"
+"Click BOOK MORE if you want to add more services."
+msgstr ""
+
+#: lib/Installer.php:160
+msgid ""
+"Thank you! Your booking is complete. An email with details of your booking "
+"has been sent to you."
+msgstr ""
+
+#: lib/Installer.php:161
+msgid ""
+"You are trying to use the service too often. Please contact us to make a "
+"booking."
+msgstr ""
+
+#: lib/Installer.php:162
+msgid "Your payment has been accepted for processing."
+msgstr ""
+
+#: lib/Installer.php:163
+msgid "The total price for the booking is {total_price}."
+msgstr ""
+
+#: lib/Installer.php:164
+msgid ""
+"You selected to book {appointments_count} appointments with total price "
+"{total_price}."
+msgstr ""
+
+#: lib/Installer.php:165
+msgid "Please provide your details in the form below to proceed with booking."
+msgstr ""
+
+#: lib/Installer.php:167
+msgid "Please select service: "
+msgstr ""
+
+#: lib/Installer.php:168
+msgid ""
+"Below you can find a list of available time slots for {service_name} by "
+"{staff_name}."
+msgstr ""
+
+#: lib/Installer.php:170
+msgid "Card Security Code"
+msgstr ""
+
+#: lib/Installer.php:171
+msgid "Expiration Date"
+msgstr ""
+
+#: lib/Installer.php:172
+msgid "Credit Card Number"
+msgstr ""
+
+#: lib/Installer.php:173 lib/entities/Payment.php:75
+msgid "Coupon"
+msgstr ""
+
+#: lib/Installer.php:174
+msgid "{service_date} {service_time}"
+msgstr ""
+
+#: lib/Installer.php:175
+msgid "{service_name} by {staff_name} ⨯ {number_of_persons}"
+msgstr ""
+
+#: lib/Installer.php:177
+msgid "Choose your payment method"
+msgstr ""
+
+#: lib/Installer.php:178
+msgid "Sub Total"
+msgstr ""
+
+#: lib/Installer.php:182
+msgid "Employee"
+msgstr ""
+
+#: lib/Installer.php:183
+msgid "Finish by"
+msgstr ""
+
+#: lib/Installer.php:188
+msgid "I will pay now with Credit Card"
+msgstr ""
+
+#: lib/Installer.php:189
+msgid "I will pay locally"
+msgstr ""
+
+#: lib/Installer.php:190
+msgid "I will pay now with Mollie"
+msgstr ""
+
+#: lib/Installer.php:191
+msgid "I will pay now with PayPal"
+msgstr ""
+
+#: lib/Installer.php:193
+msgid "I'm available on or after"
+msgstr ""
+
+#: lib/Installer.php:194
+msgid "Available"
+msgstr ""
+
+#: lib/Installer.php:196
+msgid "Start from"
+msgstr ""
+
+#: lib/Installer.php:200
+msgid "Please tell us your email"
+msgstr ""
+
+#: lib/Installer.php:201
+msgid "Please select an employee"
+msgstr ""
+
+#: lib/Installer.php:202
+msgid "Please tell us your name"
+msgstr ""
+
+#: lib/Installer.php:203
+msgid "Please tell us your first name"
+msgstr ""
+
+#: lib/Installer.php:204
+msgid "Please tell us your last name"
+msgstr ""
+
+#: lib/Installer.php:205
+msgid "Please tell us your phone"
+msgstr ""
+
+#: lib/Installer.php:209
+msgid ""
+"The selected time is not available anymore. Please, choose another time slot."
+msgstr ""
+
+#: lib/Installer.php:210
+msgid "Cart"
+msgstr ""
+
+#: lib/Installer.php:211
+msgid ""
+"The highlighted time is not available anymore. Please, choose another time "
+"slot."
+msgstr ""
+
+#: lib/Installer.php:214
+msgid "Done"
+msgstr ""
+
+#: lib/Installer.php:216 lib/Installer.php:217 lib/Installer.php:218
+msgid "Next"
+msgstr ""
+
+#: lib/Installer.php:226 lib/Installer.php:227
+msgid "Signed up"
+msgstr ""
+
+#: lib/Installer.php:226 lib/Installer.php:227
+msgid "Capacity"
+msgstr ""
+
+#: lib/Installer.php:292
+msgid "Appointment"
+msgstr ""
+
+#: lib/SMS.php:57
+msgid "Unexpected error, please try again."
+msgstr ""
+
+#: lib/Validator.php:22
+msgid "Invalid email"
+msgstr ""
+
+#: lib/Validator.php:34
+msgid "This email is already in use"
+msgstr ""
+
+#: lib/Validator.php:68
+#, php-format
+msgid "\"%s\" is too long (%d characters max)."
+msgstr ""
+
+#: lib/Validator.php:99
+msgid "Invalid number"
+msgstr ""
+
+#: lib/Validator.php:117
+msgid "Invalid date"
+msgstr ""
+
+#: lib/Validator.php:135
+msgid "Invalid time"
+msgstr ""
+
+#: lib/Validator.php:160
+msgid "Incorrect code"
+msgstr ""
+
+#: lib/Validator.php:228
+#, php-format
+msgid ""
+"Your %s: %s is already associated with another %s.<br/>Press Update if we "
+"should update your user data, or press Cancel to edit entered data."
+msgstr ""
+
+#: lib/entities/CustomerAppointment.php:224
+msgid "Cancelled"
+msgstr ""
+
+#: lib/entities/CustomerAppointment.php:225
+msgid "Rejected"
+msgstr ""
+
+#: lib/entities/Notification.php:107
+msgid "Notification to customer about approved appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:108
+msgid "Notification to customer about approved appointments"
+msgstr ""
+
+#: lib/entities/Notification.php:109
+msgid "Notification to customer about cancelled appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:110
+msgid "Notification to customer about rejected appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:111
+msgid ""
+"Follow-up message in the same day after appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:112
+msgid "Notification to customer about their WordPress user login details"
+msgstr ""
+
+#: lib/entities/Notification.php:113
+msgid "Notification to customer about pending appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:114
+msgid "Notification to customer about pending appointments"
+msgstr ""
+
+#: lib/entities/Notification.php:115
+msgid ""
+"Evening reminder to customer about next day appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:116
+msgid ""
+"1st reminder to customer about upcoming appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:117
+msgid ""
+"2nd reminder to customer about upcoming appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:118
+msgid ""
+"3rd reminder to customer about upcoming appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:119 lib/entities/Notification.php:127
+msgid "Customer birthday greeting (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:120
+msgid ""
+"Evening notification with the next day agenda to staff member (requires cron "
+"setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:121
+msgid "Notification to staff member about approved appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:122
+msgid "Notification to staff member about cancelled appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:123
+msgid "Notification to staff member about rejected appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:124
+msgid "Notification to staff member about pending appointment"
+msgstr ""
+
+#: lib/entities/Notification.php:126
+msgid "Notification about appointment date and time (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:128
+msgid "Notification about last appointment (requires cron setup)"
+msgstr ""
+
+#: lib/entities/Notification.php:131
+msgid "Test message"
+msgstr ""
+
+#: lib/entities/Payment.php:68
+msgid "Local"
+msgstr ""
+
+#: lib/entities/Payment.php:90
+msgid "Completed"
+msgstr ""
+
+#: lib/utils/Common.php:295
+msgid "Reset"
+msgstr ""
+
+#: lib/utils/Common.php:555
+msgid "Version"
+msgstr ""
+
+#: lib/utils/DateTime.php:258
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/utils/DateTime.php:261
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/utils/DateTime.php:264
+#, php-format
+msgid "%d h"
+msgstr ""
+
+#: lib/utils/DateTime.php:267
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Bookme Pro - Free Appointment Booking System"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bookme.bylancer.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Bookme Pro Lite is a responsive, multipurpose and fully customizable free "
+"WordPress appointment booking and scheduling software for accepting online "
+"appointments bookings & scheduling. Check the Bookme Pro full version <a "
+"href=\"https://codecanyon.net/item/bookme-pro-wordpress-appointment-booking-"
+"and-scheduling-software/23939246\" target=\"_blank\">here</a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bylancer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bylancer.com/"
+msgstr ""

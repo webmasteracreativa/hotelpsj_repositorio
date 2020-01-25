@@ -1,0 +1,54 @@
+.bookme-pro-table{
+	select,input[type="text"]{
+		color: #33383d !important;
+	    padding: 10px !important;
+	    border-radius: 5px !important;
+	    -webkit-appearance: none;
+	    font-family: "AdobeArabic-Regular", system-ui;
+	    font-size: 20px !important;
+	}
+}
+
+#bookme-pro-service-part1{
+	.bookme-pro-form-group{
+		div{
+			position: relative;
+			&:after{
+				content: "";
+				position: absolute;
+				top: 50%;
+				right: 10px;
+				transform: translateY(-50%);
+				display: block;
+				pointer-events: none;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 10px 10px 0 10px;
+				border-color: silver transparent transparent transparent;
+			}
+		}
+	}
+}
+.bookme-pro-steps > li{
+	color: #33383d !important;
+	&:before{
+		border-color: #33383d !important;
+	}
+}
+.bookme-pro-form-group{
+	label{
+		color: #33383d !important;
+	    font-family: "AdobeArabic-Regular", system-ui;
+	    font-size: 23px !important;
+	}
+}
+
+.bookme-pro-btn{
+    background-color: #33383d !important;	
+}
+.califi:nth-of-type(1){
+	img{
+		width: 60px;
+	}
+}

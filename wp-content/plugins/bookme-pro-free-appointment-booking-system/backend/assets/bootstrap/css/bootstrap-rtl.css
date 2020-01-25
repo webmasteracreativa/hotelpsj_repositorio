@@ -1,0 +1,3000 @@
+@media print{
+    #bookme-pro-tbs *, #bookme-pro-tbs :after, #bookme-pro-tbs :before{
+        background: right  0 !important;
+    }
+
+}
+
+@media (min-width: 768px){
+    #bookme-pro-tbs .dl-horizontal dt{
+        float: right;
+        clear: right;
+        text-align: left;
+    }
+
+    #bookme-pro-tbs .dl-horizontal dd{
+        margin-right: 180px;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-1, #bookme-pro-tbs .col-sm-10, #bookme-pro-tbs .col-sm-11, #bookme-pro-tbs .col-sm-12, #bookme-pro-tbs .col-sm-2, #bookme-pro-tbs .col-sm-3, #bookme-pro-tbs .col-sm-4, #bookme-pro-tbs .col-sm-5, #bookme-pro-tbs .col-sm-6, #bookme-pro-tbs .col-sm-7, #bookme-pro-tbs .col-sm-8, #bookme-pro-tbs .col-sm-9{
+        float: right;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-12{
+        left: 100%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-11{
+        left: 91.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-10{
+        left: 83.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-9{
+        left: 75%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-8{
+        left: 66.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-7{
+        left: 58.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-6{
+        left: 50%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-5{
+        left: 41.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-4{
+        left: 33.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-3{
+        left: 25%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-2{
+        left: 16.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-1{
+        left: 8.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-pull-0{
+        left: auto;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-12{
+        right: 100%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-11{
+        right: 91.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-10{
+        right: 83.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-9{
+        right: 75%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-8{
+        right: 66.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-7{
+        right: 58.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-6{
+        right: 50%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-5{
+        right: 41.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-4{
+        right: 33.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-3{
+        right: 25%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-2{
+        right: 16.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-1{
+        right: 8.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-push-0{
+        right: auto;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-12{
+        margin-right: 100%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-11{
+        margin-right: 91.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-10{
+        margin-right: 83.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-9{
+        margin-right: 75%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-8{
+        margin-right: 66.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-7{
+        margin-right: 58.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-6{
+        margin-right: 50%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-5{
+        margin-right: 41.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-4{
+        margin-right: 33.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-3{
+        margin-right: 25%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-2{
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-1{
+        margin-right: 8.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-sm-offset-0{
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .form-horizontal .control-label{
+        text-align: left;
+    }
+
+    #bookme-pro-tbs .navbar-right .dropdown-menu{
+        left: 0;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .navbar-right .dropdown-menu-left{
+        left: auto;
+        right: 0;
+    }
+
+    #bookme-pro-tbs .nav-tabs.nav-justified > li > a{
+        border-radius: 4px 4px 0 0;
+    }
+
+    #bookme-pro-tbs .nav-tabs-justified > li > a{
+        border-radius: 4px 4px 0 0;
+    }
+
+    #bookme-pro-tbs .navbar-header{
+        float: right;
+    }
+
+    #bookme-pro-tbs .navbar-fixed-bottom .navbar-collapse, #bookme-pro-tbs .navbar-fixed-top .navbar-collapse, #bookme-pro-tbs .navbar-static-top .navbar-collapse{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #bookme-pro-tbs .container-fluid > .navbar-collapse, #bookme-pro-tbs .container-fluid > .navbar-header, #bookme-pro-tbs .container > .navbar-collapse, #bookme-pro-tbs .container > .navbar-header{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .navbar > .container .navbar-brand, #bookme-pro-tbs .navbar > .container-fluid .navbar-brand{
+        margin-right: -10px;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .navbar-nav{
+        float: right;
+    }
+
+    #bookme-pro-tbs .navbar-nav > li{
+        float: right;
+    }
+
+    #bookme-pro-tbs .navbar-form{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .navbar-text{
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #bookme-pro-tbs .navbar-left{
+        float: right !important;
+    }
+
+    #bookme-pro-tbs .navbar-right{
+        float: left !important;
+        margin-left: -10px;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .navbar-right ~ .navbar-right{
+        margin-left: 0;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-remove, #bookme-pro-tbs .bookme-pro-margin-left-screensm-remove, #bookme-pro-tbs .bookme-pro-margin-screensm-remove{
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-remove, #bookme-pro-tbs .bookme-pro-margin-right-screensm-remove, #bookme-pro-tbs .bookme-pro-margin-screensm-remove{
+        margin-left: 0 !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-xs, #bookme-pro-tbs .bookme-pro-margin-left-screensm-xs, #bookme-pro-tbs .bookme-pro-margin-screensm-xs{
+        margin-right: 5px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-xs, #bookme-pro-tbs .bookme-pro-margin-right-screensm-xs, #bookme-pro-tbs .bookme-pro-margin-screensm-xs{
+        margin-left: 5px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-sm, #bookme-pro-tbs .bookme-pro-margin-left-screensm-sm, #bookme-pro-tbs .bookme-pro-margin-screensm-sm{
+        margin-right: 10px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-sm, #bookme-pro-tbs .bookme-pro-margin-right-screensm-sm, #bookme-pro-tbs .bookme-pro-margin-screensm-sm{
+        margin-left: 10px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-md, #bookme-pro-tbs .bookme-pro-margin-left-screensm-md, #bookme-pro-tbs .bookme-pro-margin-screensm-md{
+        margin-right: 12px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-md, #bookme-pro-tbs .bookme-pro-margin-right-screensm-md, #bookme-pro-tbs .bookme-pro-margin-screensm-md{
+        margin-left: 12px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-lg, #bookme-pro-tbs .bookme-pro-margin-left-screensm-lg, #bookme-pro-tbs .bookme-pro-margin-screensm-lg{
+        margin-right: 16px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-lg, #bookme-pro-tbs .bookme-pro-margin-right-screensm-lg, #bookme-pro-tbs .bookme-pro-margin-screensm-lg{
+        margin-left: 16px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-xlg, #bookme-pro-tbs .bookme-pro-margin-left-screensm-xlg, #bookme-pro-tbs .bookme-pro-margin-screensm-xlg{
+        margin-right: 32px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screensm-xlg, #bookme-pro-tbs .bookme-pro-margin-right-screensm-xlg, #bookme-pro-tbs .bookme-pro-margin-screensm-xlg{
+        margin-left: 32px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .jCalMo{
+        float: right;
+    }
+
+    #bookme-pro-tbs .panel .panel-footer{
+        text-align: left;
+    }
+
+    #bookme-pro-tbs .form-inline .form-group + .form-group, #bookme-pro-tbs .modal-footer .btn + .btn, #bookme-pro-tbs .page-header .btn + .btn, #bookme-pro-tbs .page-header .popover + .btn, #bookme-pro-tbs .panel-footer .btn + .btn:not(.bookme-pro-btn-unborder){
+        margin-right: 12px;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-nav.bookme-pro-nav-tabs .bookme-pro-nav-item{
+        margin: 6px 0 -1px 10px ;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+}
+
+#bookme-pro-tbs .text-left{
+    text-align: right;
+}
+
+#bookme-pro-tbs .text-right{
+    text-align: left;
+}
+
+#bookme-pro-tbs .list-unstyled{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .list-inline{
+    padding-right: 0;
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .list-inline > li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#bookme-pro-tbs dd{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs blockquote{
+    border-right: 5px solid #e8ebf0;
+    border-left: none;
+}
+
+#bookme-pro-tbs .blockquote-reverse, #bookme-pro-tbs blockquote.pull-right{
+    padding-left: 15px;
+    padding-right: 0;
+    text-align: left;
+    border-left: 5px solid #e8ebf0;
+    border-right: 0;
+}
+
+#bookme-pro-tbs .container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px){
+    #bookme-pro-tbs .col-md-1, #bookme-pro-tbs .col-md-10, #bookme-pro-tbs .col-md-11, #bookme-pro-tbs .col-md-12, #bookme-pro-tbs .col-md-2, #bookme-pro-tbs .col-md-3, #bookme-pro-tbs .col-md-4, #bookme-pro-tbs .col-md-5, #bookme-pro-tbs .col-md-6, #bookme-pro-tbs .col-md-7, #bookme-pro-tbs .col-md-8, #bookme-pro-tbs .col-md-9{
+        float: right;
+    }
+
+    #bookme-pro-tbs .col-md-pull-12{
+        left: 100%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-11{
+        left: 91.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-10{
+        left: 83.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-9{
+        left: 75%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-8{
+        left: 66.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-7{
+        left: 58.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-6{
+        left: 50%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-5{
+        left: 41.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-4{
+        left: 33.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-3{
+        left: 25%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-2{
+        left: 16.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-1{
+        left: 8.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-pull-0{
+        left: auto;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-12{
+        right: 100%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-11{
+        right: 91.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-10{
+        right: 83.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-9{
+        right: 75%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-8{
+        right: 66.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-7{
+        right: 58.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-6{
+        right: 50%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-5{
+        right: 41.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-4{
+        right: 33.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-3{
+        right: 25%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-2{
+        right: 16.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-1{
+        right: 8.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-push-0{
+        right: auto;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-12{
+        margin-right: 100%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-11{
+        margin-right: 91.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-10{
+        margin-right: 83.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-9{
+        margin-right: 75%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-8{
+        margin-right: 66.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-7{
+        margin-right: 58.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-6{
+        margin-right: 50%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-5{
+        margin-right: 41.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-4{
+        margin-right: 33.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-3{
+        margin-right: 25%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-2{
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-1{
+        margin-right: 8.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-md-offset-0{
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-remove, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-remove, #bookme-pro-tbs .bookme-pro-margin-screenmd-remove{
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-remove, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-remove, #bookme-pro-tbs .bookme-pro-margin-screenmd-remove{
+        margin-left: 0 !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-xs, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-xs, #bookme-pro-tbs .bookme-pro-margin-screenmd-xs{
+        margin-right: 5px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-xs, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-xs, #bookme-pro-tbs .bookme-pro-margin-screenmd-xs{
+        margin-left: 5px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-sm, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-sm, #bookme-pro-tbs .bookme-pro-margin-screenmd-sm{
+        margin-right: 10px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-sm, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-sm, #bookme-pro-tbs .bookme-pro-margin-screenmd-sm{
+        margin-left: 10px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-md, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-md, #bookme-pro-tbs .bookme-pro-margin-screenmd-md{
+        margin-right: 12px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-md, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-md, #bookme-pro-tbs .bookme-pro-margin-screenmd-md{
+        margin-left: 12px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-lg, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-lg, #bookme-pro-tbs .bookme-pro-margin-screenmd-lg{
+        margin-right: 16px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-lg, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-lg, #bookme-pro-tbs .bookme-pro-margin-screenmd-lg{
+        margin-left: 16px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-xlg, #bookme-pro-tbs .bookme-pro-margin-left-screenmd-xlg, #bookme-pro-tbs .bookme-pro-margin-screenmd-xlg{
+        margin-right: 32px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenmd-xlg, #bookme-pro-tbs .bookme-pro-margin-right-screenmd-xlg, #bookme-pro-tbs .bookme-pro-margin-screenmd-xlg{
+        margin-left: 32px !important;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 1200px){
+    #bookme-pro-tbs .col-lg-1, #bookme-pro-tbs .col-lg-10, #bookme-pro-tbs .col-lg-11, #bookme-pro-tbs .col-lg-12, #bookme-pro-tbs .col-lg-2, #bookme-pro-tbs .col-lg-3, #bookme-pro-tbs .col-lg-4, #bookme-pro-tbs .col-lg-5, #bookme-pro-tbs .col-lg-6, #bookme-pro-tbs .col-lg-7, #bookme-pro-tbs .col-lg-8, #bookme-pro-tbs .col-lg-9{
+        float: right;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-12{
+        left: 100%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-11{
+        left: 91.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-10{
+        left: 83.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-9{
+        left: 75%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-8{
+        left: 66.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-7{
+        left: 58.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-6{
+        left: 50%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-5{
+        left: 41.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-4{
+        left: 33.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-3{
+        left: 25%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-2{
+        left: 16.66666667%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-1{
+        left: 8.33333333%;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-pull-0{
+        left: auto;
+        right: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-12{
+        right: 100%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-11{
+        right: 91.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-10{
+        right: 83.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-9{
+        right: 75%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-8{
+        right: 66.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-7{
+        right: 58.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-6{
+        right: 50%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-5{
+        right: 41.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-4{
+        right: 33.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-3{
+        right: 25%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-2{
+        right: 16.66666667%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-1{
+        right: 8.33333333%;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-push-0{
+        right: auto;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-12{
+        margin-right: 100%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-11{
+        margin-right: 91.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-10{
+        margin-right: 83.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-9{
+        margin-right: 75%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-8{
+        margin-right: 66.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-7{
+        margin-right: 58.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-6{
+        margin-right: 50%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-5{
+        margin-right: 41.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-4{
+        margin-right: 33.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-3{
+        margin-right: 25%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-2{
+        margin-right: 16.66666667%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-1{
+        margin-right: 8.33333333%;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .col-lg-offset-0{
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .jCalMo{
+        float: right;
+    }
+
+}
+
+#bookme-pro-tbs .container-fluid{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bookme-pro-tbs .col-lg-1, #bookme-pro-tbs .col-lg-10, #bookme-pro-tbs .col-lg-11, #bookme-pro-tbs .col-lg-12, #bookme-pro-tbs .col-lg-2, #bookme-pro-tbs .col-lg-3, #bookme-pro-tbs .col-lg-4, #bookme-pro-tbs .col-lg-5, #bookme-pro-tbs .col-lg-6, #bookme-pro-tbs .col-lg-7, #bookme-pro-tbs .col-lg-8, #bookme-pro-tbs .col-lg-9, #bookme-pro-tbs .col-md-1, #bookme-pro-tbs .col-md-10, #bookme-pro-tbs .col-md-11, #bookme-pro-tbs .col-md-12, #bookme-pro-tbs .col-md-2, #bookme-pro-tbs .col-md-3, #bookme-pro-tbs .col-md-4, #bookme-pro-tbs .col-md-5, #bookme-pro-tbs .col-md-6, #bookme-pro-tbs .col-md-7, #bookme-pro-tbs .col-md-8, #bookme-pro-tbs .col-md-9, #bookme-pro-tbs .col-sm-1, #bookme-pro-tbs .col-sm-10, #bookme-pro-tbs .col-sm-11, #bookme-pro-tbs .col-sm-12, #bookme-pro-tbs .col-sm-2, #bookme-pro-tbs .col-sm-3, #bookme-pro-tbs .col-sm-4, #bookme-pro-tbs .col-sm-5, #bookme-pro-tbs .col-sm-6, #bookme-pro-tbs .col-sm-7, #bookme-pro-tbs .col-sm-8, #bookme-pro-tbs .col-sm-9, #bookme-pro-tbs .col-xs-1, #bookme-pro-tbs .col-xs-10, #bookme-pro-tbs .col-xs-11, #bookme-pro-tbs .col-xs-12, #bookme-pro-tbs .col-xs-2, #bookme-pro-tbs .col-xs-3, #bookme-pro-tbs .col-xs-4, #bookme-pro-tbs .col-xs-5, #bookme-pro-tbs .col-xs-6, #bookme-pro-tbs .col-xs-7, #bookme-pro-tbs .col-xs-8, #bookme-pro-tbs .col-xs-9{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bookme-pro-tbs .col-xs-1, #bookme-pro-tbs .col-xs-10, #bookme-pro-tbs .col-xs-11, #bookme-pro-tbs .col-xs-12, #bookme-pro-tbs .col-xs-2, #bookme-pro-tbs .col-xs-3, #bookme-pro-tbs .col-xs-4, #bookme-pro-tbs .col-xs-5, #bookme-pro-tbs .col-xs-6, #bookme-pro-tbs .col-xs-7, #bookme-pro-tbs .col-xs-8, #bookme-pro-tbs .col-xs-9{
+    float: right;
+}
+
+#bookme-pro-tbs .col-xs-pull-12{
+    left: 100%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-11{
+    left: 91.66666667%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-10{
+    left: 83.33333333%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-9{
+    left: 75%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-8{
+    left: 66.66666667%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-7{
+    left: 58.33333333%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-6{
+    left: 50%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-5{
+    left: 41.66666667%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-4{
+    left: 33.33333333%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-3{
+    left: 25%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-2{
+    left: 16.66666667%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-1{
+    left: 8.33333333%;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-pull-0{
+    left: auto;
+    right: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-12{
+    right: 100%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-11{
+    right: 91.66666667%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-10{
+    right: 83.33333333%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-9{
+    right: 75%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-8{
+    right: 66.66666667%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-7{
+    right: 58.33333333%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-6{
+    right: 50%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-5{
+    right: 41.66666667%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-4{
+    right: 33.33333333%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-3{
+    right: 25%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-2{
+    right: 16.66666667%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-1{
+    right: 8.33333333%;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-push-0{
+    right: auto;
+    left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-12{
+    margin-right: 100%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-11{
+    margin-right: 91.66666667%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-10{
+    margin-right: 83.33333333%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-9{
+    margin-right: 75%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-8{
+    margin-right: 66.66666667%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-7{
+    margin-right: 58.33333333%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-6{
+    margin-right: 50%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-5{
+    margin-right: 41.66666667%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-4{
+    margin-right: 33.33333333%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-3{
+    margin-right: 25%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-2{
+    margin-right: 16.66666667%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-1{
+    margin-right: 8.33333333%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .col-xs-offset-0{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs caption{
+    text-align: right;
+}
+
+#bookme-pro-tbs th{
+    text-align: right;
+}
+
+@media screen and (max-width: 767px){
+    #bookme-pro-tbs .table-responsive > .table-bordered > tbody > tr > td:first-child, #bookme-pro-tbs .table-responsive > .table-bordered > tbody > tr > th:first-child, #bookme-pro-tbs .table-responsive > .table-bordered > tfoot > tr > td:first-child, #bookme-pro-tbs .table-responsive > .table-bordered > tfoot > tr > th:first-child, #bookme-pro-tbs .table-responsive > .table-bordered > thead > tr > td:first-child, #bookme-pro-tbs .table-responsive > .table-bordered > thead > tr > th:first-child{
+        border-right: 0;
+        border-left: none;
+    }
+
+    #bookme-pro-tbs .table-responsive > .table-bordered > tbody > tr > td:last-child, #bookme-pro-tbs .table-responsive > .table-bordered > tbody > tr > th:last-child, #bookme-pro-tbs .table-responsive > .table-bordered > tfoot > tr > td:last-child, #bookme-pro-tbs .table-responsive > .table-bordered > tfoot > tr > th:last-child, #bookme-pro-tbs .table-responsive > .table-bordered > thead > tr > td:last-child, #bookme-pro-tbs .table-responsive > .table-bordered > thead > tr > th:last-child{
+        border-left: 0;
+        border-right: none;
+    }
+
+}
+
+#bookme-pro-tbs .checkbox label, #bookme-pro-tbs .radio label{
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs .checkbox input[type=checkbox], #bookme-pro-tbs .checkbox-inline input[type=checkbox], #bookme-pro-tbs .radio input[type=radio], #bookme-pro-tbs .radio-inline input[type=radio]{
+    margin-right: -20px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .checkbox-inline, #bookme-pro-tbs .radio-inline{
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs .checkbox-inline + .checkbox-inline, #bookme-pro-tbs .radio-inline + .radio-inline{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .form-control-static.input-lg, #bookme-pro-tbs .form-control-static.input-sm{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .has-feedback .form-control{
+    padding-left: 43.75px;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .form-control-feedback{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .form-horizontal .form-group{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bookme-pro-tbs .form-horizontal .has-feedback .form-control-feedback{
+    left: 10px;
+    right: auto;
+}
+
+#bookme-pro-tbs .caret{
+    margin-right: 2px;
+    margin-left: auto;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+#bookme-pro-tbs .dropdown-menu{
+    right: 0;
+    left: auto;
+    float: right;
+    text-align: right;
+}
+
+#bookme-pro-tbs .dropdown-menu.pull-right{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .dropdown-menu-right{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .dropdown-menu-left{
+    left: auto;
+    right: 0;
+}
+
+#bookme-pro-tbs .dropdown-backdrop{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .pull-right > .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn, #bookme-pro-tbs .btn-group > .btn{
+    float: right;
+}
+
+#bookme-pro-tbs .btn-group .btn + .btn, #bookme-pro-tbs .btn-group .btn + .btn-group, #bookme-pro-tbs .btn-group .btn-group + .btn, #bookme-pro-tbs .btn-group .btn-group + .btn-group{
+    margin-right: -1px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .btn-toolbar{
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .btn-toolbar .btn, #bookme-pro-tbs .btn-toolbar .btn-group, #bookme-pro-tbs .btn-toolbar .input-group{
+    float: right;
+}
+
+#bookme-pro-tbs .btn-toolbar > .btn, #bookme-pro-tbs .btn-toolbar > .btn-group, #bookme-pro-tbs .btn-toolbar > .input-group{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .btn-group > .btn:first-child{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle){
+    border-top-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+}
+
+#bookme-pro-tbs .btn-group > .btn:last-child:not(:first-child), #bookme-pro-tbs .btn-group > .dropdown-toggle:not(:first-child){
+    border-top-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+}
+
+#bookme-pro-tbs .btn-group > .btn-group{
+    float: right;
+}
+
+#bookme-pro-tbs .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, #bookme-pro-tbs .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle{
+    border-top-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 4px;
+}
+
+#bookme-pro-tbs .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child{
+    border-top-right-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+}
+
+#bookme-pro-tbs .btn-group > .btn + .dropdown-toggle{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#bookme-pro-tbs .btn-group > .btn-lg + .dropdown-toggle{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#bookme-pro-tbs .btn .caret{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn + .btn, #bookme-pro-tbs .btn-group-vertical > .btn + .btn-group, #bookme-pro-tbs .btn-group-vertical > .btn-group + .btn, #bookme-pro-tbs .btn-group-vertical > .btn-group + .btn-group{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn:first-child:not(:last-child){
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn:last-child:not(:first-child){
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child, #bookme-pro-tbs .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#bookme-pro-tbs .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#bookme-pro-tbs .btn-group-justified > .btn-group .dropdown-menu{
+    right: auto;
+    left: auto;
+}
+
+#bookme-pro-tbs .input-group[class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .input-group .form-control{
+    float: right;
+}
+
+#bookme-pro-tbs .input-group .form-control:first-child, #bookme-pro-tbs .input-group-addon:first-child, #bookme-pro-tbs .input-group-btn:first-child > .btn, #bookme-pro-tbs .input-group-btn:first-child > .btn-group > .btn, #bookme-pro-tbs .input-group-btn:first-child > .dropdown-toggle, #bookme-pro-tbs .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, #bookme-pro-tbs .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle){
+    border-radius: 0 4px 4px 0;
+}
+
+#bookme-pro-tbs .input-group-addon:first-child{
+    border-left: 0;
+    border-right: none;
+}
+
+#bookme-pro-tbs .input-group .form-control:last-child, #bookme-pro-tbs .input-group-addon:last-child, #bookme-pro-tbs .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, #bookme-pro-tbs .input-group-btn:first-child > .btn:not(:first-child), #bookme-pro-tbs .input-group-btn:last-child > .btn, #bookme-pro-tbs .input-group-btn:last-child > .btn-group > .btn, #bookme-pro-tbs .input-group-btn:last-child > .dropdown-toggle{
+    border-radius: 4px 0 0 4px;
+}
+
+#bookme-pro-tbs .input-group-addon:last-child{
+    border-right: 0;
+    border-left: none;
+}
+
+#bookme-pro-tbs .input-group-btn > .btn + .btn{
+    margin-right: -1px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .input-group-btn:first-child > .btn, #bookme-pro-tbs .input-group-btn:first-child > .btn-group{
+    margin-left: -1px;
+    margin-right: auto;
+    border-left: 0;
+    border-right: none;
+}
+
+#bookme-pro-tbs .input-group-btn:last-child > .btn, #bookme-pro-tbs .input-group-btn:last-child > .btn-group{
+    margin-right: -1px;
+    margin-left: auto;
+    border-right: 0;
+    border-left: none;
+}
+
+#bookme-pro-tbs .nav{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .nav-tabs > li{
+    float: right;
+}
+
+#bookme-pro-tbs .nav-tabs > li > a{
+    margin-left: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+#bookme-pro-tbs .nav-tabs.nav-justified > li > a{
+    margin-left: 0;
+}
+
+#bookme-pro-tbs .nav-tabs.nav-justified > .dropdown .dropdown-menu{
+    right: auto;
+    left: auto;
+}
+
+#bookme-pro-tbs .nav-pills > li{
+    float: right;
+}
+
+#bookme-pro-tbs .nav-pills > li + li{
+    margin-right: 2px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .nav-stacked > li + li{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .nav-justified > .dropdown .dropdown-menu{
+    right: auto;
+    left: auto;
+}
+
+#bookme-pro-tbs .nav-tabs-justified > li > a{
+    margin-left: 0;
+}
+
+#bookme-pro-tbs .nav-tabs .dropdown-menu{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#bookme-pro-tbs .navbar-collapse{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bookme-pro-tbs .container-fluid > .navbar-collapse, #bookme-pro-tbs .container-fluid > .navbar-header, #bookme-pro-tbs .container > .navbar-collapse, #bookme-pro-tbs .container > .navbar-header{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bookme-pro-tbs .navbar-fixed-bottom, #bookme-pro-tbs .navbar-fixed-top{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .navbar-brand{
+    float: right;
+}
+
+#bookme-pro-tbs .navbar-toggle{
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+@media (max-width: 767px){
+    #bookme-pro-tbs .navbar-nav .open .dropdown-menu .dropdown-header, #bookme-pro-tbs .navbar-nav .open .dropdown-menu > li > a{
+        padding: 5px 25px 5px 15px ;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-remove, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-remove, #bookme-pro-tbs .bookme-pro-margin-screenxs-remove{
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-remove, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-remove, #bookme-pro-tbs .bookme-pro-margin-screenxs-remove{
+        margin-left: 0 !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-xs, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-xs, #bookme-pro-tbs .bookme-pro-margin-screenxs-xs{
+        margin-right: 5px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-xs, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-xs, #bookme-pro-tbs .bookme-pro-margin-screenxs-xs{
+        margin-left: 5px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-sm, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-sm, #bookme-pro-tbs .bookme-pro-margin-screenxs-sm{
+        margin-right: 10px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-sm, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-sm, #bookme-pro-tbs .bookme-pro-margin-screenxs-sm{
+        margin-left: 10px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-md, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-md, #bookme-pro-tbs .bookme-pro-margin-screenxs-md{
+        margin-right: 12px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-md, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-md, #bookme-pro-tbs .bookme-pro-margin-screenxs-md{
+        margin-left: 12px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-lg, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-lg, #bookme-pro-tbs .bookme-pro-margin-screenxs-lg{
+        margin-right: 16px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-lg, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-lg, #bookme-pro-tbs .bookme-pro-margin-screenxs-lg{
+        margin-left: 16px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-xlg, #bookme-pro-tbs .bookme-pro-margin-left-screenxs-xlg, #bookme-pro-tbs .bookme-pro-margin-screenxs-xlg{
+        margin-right: 32px !important;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-margin-horizontal-screenxs-xlg, #bookme-pro-tbs .bookme-pro-margin-right-screenxs-xlg, #bookme-pro-tbs .bookme-pro-margin-screenxs-xlg{
+        margin-left: 32px !important;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .bookme-pro-text-xs-left{
+        text-align: right !important;
+    }
+
+    #bookme-pro-tbs .bookme-pro-text-xs-right{
+        text-align: left !important;
+    }
+
+    #bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-left, #bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-right{
+        margin: 0 12px 6px 12px ;
+    }
+
+}
+
+#bookme-pro-tbs .navbar-form{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bookme-pro-tbs .navbar-nav > li > .dropdown-menu{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#bookme-pro-tbs .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#bookme-pro-tbs .pagination{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .pagination > li > a, #bookme-pro-tbs .pagination > li > span{
+    float: right;
+    margin-right: -1px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .pagination > li:first-child > a, #bookme-pro-tbs .pagination > li:first-child > span{
+    margin-right: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+#bookme-pro-tbs .pagination > li:last-child > a, #bookme-pro-tbs .pagination > li:last-child > span{
+    border-radius: 4px 0 0 4px;
+}
+
+#bookme-pro-tbs .pagination-lg > li:first-child > a, #bookme-pro-tbs .pagination-lg > li:first-child > span{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#bookme-pro-tbs .pagination-lg > li:last-child > a, #bookme-pro-tbs .pagination-lg > li:last-child > span{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#bookme-pro-tbs .pagination-sm > li:first-child > a, #bookme-pro-tbs .pagination-sm > li:first-child > span{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .pagination-sm > li:last-child > a, #bookme-pro-tbs .pagination-sm > li:last-child > span{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#bookme-pro-tbs .pager{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .pager .next > a, #bookme-pro-tbs .pager .next > span{
+    float: left;
+}
+
+#bookme-pro-tbs .pager .previous > a, #bookme-pro-tbs .pager .previous > span{
+    float: right;
+}
+
+#bookme-pro-tbs .list-group-item > .badge{
+    float: left;
+}
+
+#bookme-pro-tbs .list-group-item > .badge + .badge{
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .nav-pills > li > a > .badge{
+    margin-right: 3px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .container .jumbotron, #bookme-pro-tbs .container-fluid .jumbotron{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 768px){
+    #bookme-pro-tbs .container .jumbotron, #bookme-pro-tbs .container-fluid .jumbotron{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #bookme-pro-tbs .carousel-control .glyphicon-chevron-left, #bookme-pro-tbs .carousel-control .icon-prev{
+        margin-right: -10px;
+        margin-left: auto;
+    }
+
+    #bookme-pro-tbs .carousel-control .glyphicon-chevron-right, #bookme-pro-tbs .carousel-control .icon-next{
+        margin-left: -10px;
+        margin-right: auto;
+    }
+
+    #bookme-pro-tbs .carousel-caption{
+        left: 20%;
+        right: 20%;
+    }
+
+}
+
+#bookme-pro-tbs .thumbnail a > img, #bookme-pro-tbs .thumbnail > img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .alert-dismissable, #bookme-pro-tbs .alert-dismissible{
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+#bookme-pro-tbs .alert-dismissable .close, #bookme-pro-tbs .alert-dismissible .close{
+    left: -21px;
+    right: auto;
+}
+
+#bookme-pro-tbs .progress-bar{
+    float: right;
+}
+
+#bookme-pro-tbs .media-right, #bookme-pro-tbs .media > .pull-right{
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs .media-left, #bookme-pro-tbs .media > .pull-left{
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .media-list{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .list-group{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .list-group-item:first-child{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+#bookme-pro-tbs .list-group-item:last-child{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#bookme-pro-tbs button.list-group-item{
+    text-align: right;
+}
+
+#bookme-pro-tbs .panel-heading{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel-footer{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .list-group:first-child .list-group-item:first-child, #bookme-pro-tbs .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .list-group:last-child .list-group-item:last-child, #bookme-pro-tbs .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#bookme-pro-tbs .panel > .panel-collapse > .table caption, #bookme-pro-tbs .panel > .table caption, #bookme-pro-tbs .panel > .table-responsive > .table caption{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child, #bookme-pro-tbs .panel > .table:first-child{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child, #bookme-pro-tbs .panel > .table:first-child > tbody:first-child > tr:first-child, #bookme-pro-tbs .panel > .table:first-child > thead:first-child > tr:first-child{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, #bookme-pro-tbs .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, #bookme-pro-tbs .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, #bookme-pro-tbs .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, #bookme-pro-tbs .panel > .table:first-child > thead:first-child > tr:first-child th:first-child{
+    border-top-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, #bookme-pro-tbs .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, #bookme-pro-tbs .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child, #bookme-pro-tbs .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child, #bookme-pro-tbs .panel > .table:first-child > thead:first-child > tr:first-child td:last-child, #bookme-pro-tbs .panel > .table:first-child > thead:first-child > tr:first-child th:last-child{
+    border-top-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child, #bookme-pro-tbs .panel > .table:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child, #bookme-pro-tbs .panel > .table:last-child > tbody:last-child > tr:last-child, #bookme-pro-tbs .panel > .table:last-child > tfoot:last-child > tr:last-child{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child, #bookme-pro-tbs .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, #bookme-pro-tbs .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, #bookme-pro-tbs .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, #bookme-pro-tbs .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child{
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, #bookme-pro-tbs .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child, #bookme-pro-tbs .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, #bookme-pro-tbs .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, #bookme-pro-tbs .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, #bookme-pro-tbs .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child{
+    border-bottom-left-radius: 3px;
+}
+
+#bookme-pro-tbs .panel > .table-bordered > tbody > tr > td:first-child, #bookme-pro-tbs .panel > .table-bordered > tbody > tr > th:first-child, #bookme-pro-tbs .panel > .table-bordered > tfoot > tr > td:first-child, #bookme-pro-tbs .panel > .table-bordered > tfoot > tr > th:first-child, #bookme-pro-tbs .panel > .table-bordered > thead > tr > td:first-child, #bookme-pro-tbs .panel > .table-bordered > thead > tr > th:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > thead > tr > th:first-child{
+    border-right: 0;
+    border-left: none;
+}
+
+#bookme-pro-tbs .panel > .table-bordered > tbody > tr > td:last-child, #bookme-pro-tbs .panel > .table-bordered > tbody > tr > th:last-child, #bookme-pro-tbs .panel > .table-bordered > tfoot > tr > td:last-child, #bookme-pro-tbs .panel > .table-bordered > tfoot > tr > th:last-child, #bookme-pro-tbs .panel > .table-bordered > thead > tr > td:last-child, #bookme-pro-tbs .panel > .table-bordered > thead > tr > th:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, #bookme-pro-tbs .panel > .table-responsive > .table-bordered > thead > tr > th:last-child{
+    border-left: 0;
+    border-right: none;
+}
+
+#bookme-pro-tbs .embed-responsive .embed-responsive-item, #bookme-pro-tbs .embed-responsive embed, #bookme-pro-tbs .embed-responsive iframe, #bookme-pro-tbs .embed-responsive object, #bookme-pro-tbs .embed-responsive video{
+    right: 0;
+    left: auto;
+}
+
+
+#bookme-pro-tbs .close{
+    float: left;
+}
+
+#bookme-pro-tbs button.close{
+    background: right  0;
+}
+
+#bookme-pro-tbs .modal{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .modal-backdrop{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .modal-footer{
+    text-align: left;
+}
+
+#bookme-pro-tbs .modal-footer .btn + .btn{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .modal-footer .btn-group .btn + .btn{
+    margin-right: -1px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .modal-footer .btn-block + .btn-block{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .tooltip.right{
+    margin-right: 3px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .tooltip.left{
+    margin-right: -3px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .tooltip.top .tooltip-arrow{
+    right: 50%;
+    left: auto;
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .tooltip.top-left .tooltip-arrow{
+    left: 5px;
+    right: auto;
+}
+
+#bookme-pro-tbs .tooltip.top-right .tooltip-arrow{
+    right: 5px;
+    left: auto;
+}
+
+#bookme-pro-tbs .tooltip.right .tooltip-arrow{
+    right: 0;
+    left: auto;
+    border-width: 5px 0 5px 5px ;
+    border-left-color: #000;
+    border-right-color: unset;
+}
+
+#bookme-pro-tbs .tooltip.left .tooltip-arrow{
+    left: 0;
+    right: auto;
+    border-width: 5px 5px 5px 0 ;
+    border-right-color: #000;
+    border-left-color: unset;
+}
+
+#bookme-pro-tbs .tooltip.bottom .tooltip-arrow{
+    right: 50%;
+    left: auto;
+    margin-right: -5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .tooltip.bottom-left .tooltip-arrow{
+    left: 5px;
+    right: auto;
+}
+
+#bookme-pro-tbs .tooltip.bottom-right .tooltip-arrow{
+    right: 5px;
+    left: auto;
+}
+
+#bookme-pro-tbs .popover.right{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .popover.left{
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .popover-title{
+    border-radius: 5px 5px 0 0;
+}
+
+#bookme-pro-tbs .popover.top > .popover-arrow{
+    right: 50%;
+    left: auto;
+    margin-right: -11px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .popover.top > .popover-arrow:after{
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .popover.bottom > .popover-arrow{
+    right: 50%;
+    left: auto;
+    margin-right: -11px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .popover.bottom > .popover-arrow:after{
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+@media all and (transform-3d),(-webkit-transform-3d){
+    #bookme-pro-tbs .carousel-inner > .item.active.right, #bookme-pro-tbs .carousel-inner > .item.next{
+        right: 0;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .carousel-inner > .item.active.left, #bookme-pro-tbs .carousel-inner > .item.prev{
+        right: 0;
+        left: auto;
+    }
+
+    #bookme-pro-tbs .carousel-inner > .item.active, #bookme-pro-tbs .carousel-inner > .item.next.left, #bookme-pro-tbs .carousel-inner > .item.prev.right{
+        right: 0;
+        left: auto;
+    }
+
+}
+
+#bookme-pro-tbs .carousel-inner > .active{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-inner > .next{
+    right: 100%;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-inner > .prev{
+    right: -100%;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-inner > .next.left, #bookme-pro-tbs .carousel-inner > .prev.right{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-inner > .active.left{
+    right: -100%;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-inner > .active.right{
+    right: 100%;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-control{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .carousel-control.right{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .carousel-control .glyphicon-chevron-left, #bookme-pro-tbs .carousel-control .icon-prev{
+    right: 50%;
+    left: auto;
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .carousel-control .glyphicon-chevron-right, #bookme-pro-tbs .carousel-control .icon-next{
+    left: 50%;
+    right: auto;
+    margin-left: -10px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .carousel-indicators{
+    right: 50%;
+    left: auto;
+    padding-right: 0;
+    margin-right: -30%;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .carousel-caption{
+    left: 15%;
+    right: 15%;
+}
+
+#bookme-pro-tbs .center-block{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .pull-right{
+    float: left !important;
+}
+
+#bookme-pro-tbs .pull-left{
+    float: right !important;
+}
+
+#bookme-pro-tbs [class*=block-grid-]{
+    border-width: 1px 1px 0 0 ;
+}
+
+#bookme-pro-tbs [class*=block-grid-] > *{
+    float: right;
+    border-width: 0 0 1px 1px ;
+}
+
+#bookme-pro-tbs .btn-group-justified > .btn-group:not(:first-child) .btn, #bookme-pro-tbs .btn-group-justified > .btn:not(:first-child){
+    border-right: 0;
+    border-left: none;
+}
+
+#bookme-pro-tbs .callout{
+    border-right-width: 4px;
+    border-left-width: unset;
+}
+
+#bookme-pro-tbs .callout.callout-danger{
+    border-right-color: #d9534f;
+    border-left-color: unset;
+}
+
+#bookme-pro-tbs .callout.callout-warning{
+    border-right-color: #f0ad4e;
+    border-left-color: unset;
+}
+
+#bookme-pro-tbs .callout.callout-info{
+    border-right-color: #5bc0de;
+    border-left-color: unset;
+}
+
+#bookme-pro-tbs input[type=checkbox]:checked:before{
+    margin: -3px -3px 0 0;
+}
+
+#bookme-pro-tbs select.form-control{
+    padding-left: 22px;
+    padding-right: 12px;
+    background-position: 4px 50%;
+}
+
+#bookme-pro-tbs .bookme-pro-pretty input[type=file]{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .input-group-btn:first-child > .btn:last-child{
+    margin-left: -1px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .nav-tabs > li > a:after{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .nav-tabs.nav-justified > li.active > a, #bookme-pro-tbs .nav-tabs.nav-justified > li.active > a:focus, #bookme-pro-tbs .nav-tabs.nav-justified > li.active > a:hover, #bookme-pro-tbs .nav-tabs > li.active > a, #bookme-pro-tbs .nav-tabs > li.active > a:focus, #bookme-pro-tbs .nav-tabs > li.active > a:hover{
+    border-width: 0 0 1px 0 ;
+}
+
+#bookme-pro-tbs .btn.btn-pill-left{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#bookme-pro-tbs .btn.btn-pill-right{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+#bookme-pro-tbs .form-control.input-pill-left{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#bookme-pro-tbs .form-control.input-pill-right{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+#bookme-pro-tbs .label.label-pill-left{
+    border-top-right-radius: .9em;
+    border-bottom-right-radius: .9em;
+}
+
+#bookme-pro-tbs .label.label-pill-right{
+    border-top-left-radius: .9em;
+    border-bottom-left-radius: .9em;
+}
+
+#bookme-pro-tbs .bookme-pro-bottom-left, #bookme-pro-tbs .bookme-pro-top-left{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-bottom-right, #bookme-pro-tbs .bookme-pro-top-right{
+    left: 0;
+    right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-xs, #bookme-pro-tbs .bookme-pro-margin-left-xs, #bookme-pro-tbs .bookme-pro-margin-xs{
+    margin-right: 5px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-xs, #bookme-pro-tbs .bookme-pro-margin-right-xs, #bookme-pro-tbs .bookme-pro-margin-xs{
+    margin-left: 5px !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-sm, #bookme-pro-tbs .bookme-pro-margin-left-sm, #bookme-pro-tbs .bookme-pro-margin-sm{
+    margin-right: 10px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-sm, #bookme-pro-tbs .bookme-pro-margin-right-sm, #bookme-pro-tbs .bookme-pro-margin-sm{
+    margin-left: 10px !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-md, #bookme-pro-tbs .bookme-pro-margin-left-md, #bookme-pro-tbs .bookme-pro-margin-md{
+    margin-right: 12px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-md, #bookme-pro-tbs .bookme-pro-margin-md, #bookme-pro-tbs .bookme-pro-margin-right-md{
+    margin-left: 12px !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-lg, #bookme-pro-tbs .bookme-pro-margin-left-lg, #bookme-pro-tbs .bookme-pro-margin-lg{
+    margin-right: 16px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-lg, #bookme-pro-tbs .bookme-pro-margin-lg, #bookme-pro-tbs .bookme-pro-margin-right-lg{
+    margin-left: 16px !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-xlg, #bookme-pro-tbs .bookme-pro-margin-left-xlg, #bookme-pro-tbs .bookme-pro-margin-xlg{
+    margin-right: 32px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-xlg, #bookme-pro-tbs .bookme-pro-margin-right-xlg, #bookme-pro-tbs .bookme-pro-margin-xlg{
+    margin-left: 32px !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-remove, #bookme-pro-tbs .bookme-pro-margin-left-remove, #bookme-pro-tbs .bookme-pro-margin-remove{
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-margin-horizontal-remove, #bookme-pro-tbs .bookme-pro-margin-remove, #bookme-pro-tbs .bookme-pro-margin-right-remove{
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-xs, #bookme-pro-tbs .bookme-pro-padding-left-xs, #bookme-pro-tbs .bookme-pro-padding-xs{
+    padding-right: 5px !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-xs, #bookme-pro-tbs .bookme-pro-padding-right-xs, #bookme-pro-tbs .bookme-pro-padding-xs{
+    padding-left: 5px !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-sm, #bookme-pro-tbs .bookme-pro-padding-left-sm, #bookme-pro-tbs .bookme-pro-padding-sm{
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-sm, #bookme-pro-tbs .bookme-pro-padding-right-sm, #bookme-pro-tbs .bookme-pro-padding-sm{
+    padding-left: 10px !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-md, #bookme-pro-tbs .bookme-pro-padding-left-md, #bookme-pro-tbs .bookme-pro-padding-md{
+    padding-right: 12px !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-md, #bookme-pro-tbs .bookme-pro-padding-md, #bookme-pro-tbs .bookme-pro-padding-right-md{
+    padding-left: 12px !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-lg, #bookme-pro-tbs .bookme-pro-padding-left-lg, #bookme-pro-tbs .bookme-pro-padding-lg{
+    padding-right: 16px !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-lg, #bookme-pro-tbs .bookme-pro-padding-lg, #bookme-pro-tbs .bookme-pro-padding-right-lg{
+    padding-left: 16px !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-xlg, #bookme-pro-tbs .bookme-pro-padding-left-xlg, #bookme-pro-tbs .bookme-pro-padding-xlg{
+    padding-right: 32px !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-xlg, #bookme-pro-tbs .bookme-pro-padding-right-xlg, #bookme-pro-tbs .bookme-pro-padding-xlg{
+    padding-left: 32px !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-remove, #bookme-pro-tbs .bookme-pro-padding-left-remove, #bookme-pro-tbs .bookme-pro-padding-remove{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#bookme-pro-tbs .bookme-pro-padding-horizontal-remove, #bookme-pro-tbs .bookme-pro-padding-remove, #bookme-pro-tbs .bookme-pro-padding-right-remove{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_length label{
+    text-align: right;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_filter{
+    text-align: left;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_filter label{
+    text-align: right;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_filter input{
+    margin-right: .5em;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_paginate{
+    text-align: left;
+}
+
+#bookme-pro-tbs div.dataTables_wrapper div.dataTables_processing{
+    right: 50%;
+    left: auto;
+    margin-right: -100px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs table.dataTable thead > tr > td.sorting, #bookme-pro-tbs table.dataTable thead > tr > td.sorting_asc, #bookme-pro-tbs table.dataTable thead > tr > td.sorting_desc, #bookme-pro-tbs table.dataTable thead > tr > th.sorting, #bookme-pro-tbs table.dataTable thead > tr > th.sorting_asc, #bookme-pro-tbs table.dataTable thead > tr > th.sorting_desc{
+    padding-left: 30px;
+    padding-right: 8px;
+}
+
+#bookme-pro-tbs table.dataTable thead .sorting:before, #bookme-pro-tbs table.dataTable thead .sorting_asc:before, #bookme-pro-tbs table.dataTable thead .sorting_desc:before, #bookme-pro-tbs table.dataTable thead .sorting_asc_disabled:before, #bookme-pro-tbs table.dataTable thead .sorting_desc_disabled:before{
+    left: 1em;
+    right: auto;
+}
+
+#bookme-pro-tbs table.dataTable thead .sorting:after, #bookme-pro-tbs table.dataTable thead .sorting_asc:after, #bookme-pro-tbs table.dataTable thead .sorting_desc:after, #bookme-pro-tbs table.dataTable thead .sorting_asc_disabled:after, #bookme-pro-tbs table.dataTable thead .sorting_desc_disabled:after{
+    left: 0.5em;
+    right: auto;
+}
+
+#bookme-pro-tbs table.dataTable.table-condensed > thead > tr > th{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs table.dataTable.table-condensed .sorting:after, #bookme-pro-tbs table.dataTable.table-condensed .sorting_asc:after, #bookme-pro-tbs table.dataTable.table-condensed .sorting_desc:after{
+    left: 6px;
+    right: auto;
+}
+
+#bookme-pro-tbs table.table-bordered.dataTable td, #bookme-pro-tbs table.table-bordered.dataTable th{
+    border-right-width: 0;
+    border-left-width: unset;
+}
+
+#bookme-pro-tbs table.table-bordered.dataTable td:last-child, #bookme-pro-tbs table.table-bordered.dataTable th:last-child{
+    border-left-width: 0;
+    border-right-width: unset;
+}
+
+#bookme-pro-tbs div.table-responsive > div.dataTables_wrapper > div.row > div[class^=col-]:first-child{
+    padding-right: 0;
+}
+
+#bookme-pro-tbs div.table-responsive > div.dataTables_wrapper > div.row > div[class^=col-]:last-child{
+    padding-left: 0;
+}
+
+#bookme-pro-tbs div.dt-button-info{
+    right: 50%;
+    left: auto;
+    margin-right: -200px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs ul.dt-button-collection.dropdown-menu.fixed{
+    right: 50%;
+    left: auto;
+    margin-right: -75px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs ul.dt-button-collection.dropdown-menu.fixed.two-column{
+    margin-right: -150px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs ul.dt-button-collection.dropdown-menu.fixed.three-column{
+    margin-right: -225px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs ul.dt-button-collection.dropdown-menu.fixed.four-column{
+    margin-right: -300px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs div.dt-button-background{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child, #bookme-pro-tbs table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child{
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, #bookme-pro-tbs table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before{
+    right: 4px;
+    left: auto;
+}
+
+#bookme-pro-tbs table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child, #bookme-pro-tbs table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th:first-child{
+    padding-right: 27px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td:first-child:before, #bookme-pro-tbs table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th:first-child:before{
+    right: 4px;
+    left: auto;
+}
+
+#bookme-pro-tbs table.dataTable.dtr-column > tbody > tr > td.control:before, #bookme-pro-tbs table.dataTable.dtr-column > tbody > tr > th.control:before{
+    right: 50%;
+    left: auto;
+    margin-right: -10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs table.dataTable > tbody > tr.child:hover{
+    background: right  0 !important;
+}
+
+#bookme-pro-tbs div.dtr-modal{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs div.dtr-modal div.dtr-modal-display{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs div.dtr-modal div.dtr-modal-close{
+    left: 6px;
+    right: auto;
+}
+
+#bookme-pro-tbs div.dtr-modal div.dtr-modal-background{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .jCal-wrap{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#bookme-pro-tbs .jCal .month, #bookme-pro-tbs .jCal .monthName, #bookme-pro-tbs .jCal .monthSelect, #bookme-pro-tbs .jCal .monthYear{
+    float: right;
+}
+
+#bookme-pro-tbs .jCal .monthYear{
+    float: left;
+    text-align: right;
+}
+
+#bookme-pro-tbs .jCalMo .aday, #bookme-pro-tbs .jCalMo .day, #bookme-pro-tbs .jCalMo .dow, #bookme-pro-tbs .jCalMo .invday, #bookme-pro-tbs .jCalMo .overDay, #bookme-pro-tbs .jCalMo .pday, #bookme-pro-tbs .jCalMo .selectedDay{
+    float: right;
+    margin-left: -1px;
+    margin-right: auto;
+    border-width: 0 1px 1px 1px ;
+}
+
+#bookme-pro-tbs .bookme-pro-loading:before{
+    right: calc(50% - 16px);
+    left: auto;
+}
+
+#bookme-pro-tbs .panel.bookme-pro-main .bookme-pro-js-collapse a[data-toggle=collapse]:before{
+    left: 2px;
+    right: auto;
+}
+
+#bookme-pro-tbs .panel.bookme-pro-panel-unborder .panel-heading{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#bookme-pro-tbs .panel .panel-footer{
+    padding: 21px 0 0 0 ;
+}
+
+#bookme-pro-tbs .panel .panel-body #bookme-pro-prices tr td:nth-child(4), #bookme-pro-tbs .panel .panel-body #bookme-pro-prices tr td:nth-child(5){
+    text-align: left;
+}
+
+#bookme-pro-tbs .panel .padding-lr-none{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bookme-pro-services-wrapper{
+    border-right: 1px solid #eee;
+    border-left: none;
+    padding-right: 20px !important;
+    padding-left: 0;
+}
+
+#bookme-pro-service-sidebar{
+    padding-left: 20px !important;
+    padding-right: 0;
+}
+
+@media (max-width: 768px){
+    #bookme-pro-services-wrapper{
+        padding-right: 10px !important;
+        padding-left: 0;
+    }
+
+    #bookme-pro-service-sidebar{
+        padding-left: 10px !important;
+        padding-right: 0;
+    }
+
+}
+
+
+/* intl tel input */
+
+#bookme-pro-tbs .intl-tel-input .selected-flag{
+    padding: 0 8px 0 0 !important;
+}
+
+#bookme-pro-tbs .intl-tel-input .selected-flag .iti-arrow{
+    left: 4px !important;
+    right: auto !important;
+}
+
+#bookme-pro-tbs .intl-tel-input .form-control{
+    padding-right: 45px !important;
+    padding-left: 0 !important;
+    direction: ltr !important;
+    text-align: right !important;
+}
+
+.bookme-pro-details-step .bookme-pro-form-group .intl-tel-input input{
+    padding-right: 45px !important;
+}
+
+.intl-tel-input input,.intl-tel-input input[type=tel],.intl-tel-input input[type=text]{
+    padding-left: 36px !important;
+    margin-left: 0 !important;
+}
+
+.intl-tel-input .flag-container{
+    left: 0 !important;
+}
+
+.intl-tel-input .country-list{
+    text-align: right !important;
+    margin: 0 -1px 0 0 !important;
+}
+
+.intl-tel-input .country-list .country-name,.intl-tel-input .country-list .flag-box{
+    margin-left: 6px !important;
+    margin-right: 0 !important;
+}
+
+.intl-tel-input.allow-dropdown input,.intl-tel-input.allow-dropdown input[type=tel],.intl-tel-input.allow-dropdown input[type=text],.intl-tel-input.separate-dial-code input,.intl-tel-input.separate-dial-code input[type=tel],.intl-tel-input.separate-dial-code input[type=text]{
+    padding-left: 6px !important;
+    padding-right: 52px !important;
+    margin-right: 0 !important;
+}
+
+.intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container{
+    left: auto;
+    right: 0;
+}
+
+.intl-tel-input.separate-dial-code .selected-dial-code{
+    padding-right: 28px !important;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-2 input,.intl-tel-input.separate-dial-code.iti-sdc-2 input[type=tel],.intl-tel-input.separate-dial-code.iti-sdc-2 input[type=text]{
+    padding-right: 66px !important;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input,.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel],.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text]{
+    padding-right: 76px !important;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-3 input,.intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel],.intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text]{
+    padding-right: 74px !important;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input,.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel],.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{
+    padding-right: 84px !important;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-4 input,.intl-tel-input.separate-dial-code.iti-sdc-4 input[type=tel],.intl-tel-input.separate-dial-code.iti-sdc-4 input[type=text]{
+    padding-right: 82px !important;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input,.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=tel],.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=text]{
+    padding-right: 92px !important;
+}
+
+.intl-tel-input.separate-dial-code.iti-sdc-5 input,.intl-tel-input.separate-dial-code.iti-sdc-5 input[type=tel],.intl-tel-input.separate-dial-code.iti-sdc-5 input[type=text]{
+    padding-right: 90px !important;
+}
+
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input,.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=tel],.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=text]{
+    padding-right: 100px !important;
+}
+
+.intl-tel-input.iti-container{
+    right: -1000px !important;
+}
+
+.iti-mobile .intl-tel-input.iti-container{
+    right: 30px !important;
+    left: 30px !important;
+}
+
+#bookme-pro-tbs .page-header #bookme-pro-bell{
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .page-header #bookme-pro-bell + .badge{
+    left: 7px;
+    right: auto;
+}
+
+#bookme-pro-tbs .page-header #bookme-pro-bell + ul{
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+
+#bookme-pro-tbs .bookme-pro-thumb .bookme-pro-thumb-delete{
+    left: 5px;
+    right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-thumb .bookme-pro-thumb-edit{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .btn.btn-lg{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#bookme-pro-tbs .btn.bookme-pro-btn-unborder{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav{
+    border-left: 1px solid #e4eaec;
+    border-right: none;
+}
+
+#bookme-pro-tbs .bookme-pro-nav.bookme-pro-nav-pills .bookme-pro-nav-item{
+    margin: 6px 0 6px 10px ;
+}
+
+#bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav .bookme-pro-nav-item{
+    margin-left: -1px;
+    margin-right: 0;
+    border-radius: 0 .286rem .286rem 0;
+    border-width: 0 0 0 1px ;
+}
+
+#bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav .bookme-pro-nav-item:not(.active):focus, #bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav .bookme-pro-nav-item:not(.active):hover{
+    border-left: 2px solid #247cf0;
+    border-right: none;
+}
+
+#bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav .bookme-pro-nav-item.active, #bookme-pro-tbs .bookme-pro-nav.bookme-pro-vertical-nav .bookme-pro-nav-item:hover{
+    border-left: 2px solid #247cf0;
+    border-right: none;
+}
+
+#bookme-pro-tbs .board-backdrop{
+    right: 0;
+    left: auto;
+}
+
+#bookme-pro-tbs .board-backdrop .bookme-pro-board .btn-group-vertical.align-left .btn{
+    padding-right: 6px;
+    padding-left: 0;
+    text-align: right;
+}
+
+#bookme-pro-tbs .board-backdrop .bookme-pro-board ul{
+    margin-right: 15px !important;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-entity-selector li{
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-entity-selector li:first-child{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-service-color{
+    margin-right: -25px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button-group .fc-button + .fc-button{
+    margin-right: -1px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button-group > .fc-button:first-child{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button-group > .fc-button:first-child:not(.fc-corner-right){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button-group > .fc-button:not(.fc-corner-left){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button-group:not(:last-child){
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button.btn-pill-left{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button.btn-pill-right{
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button.btn-lg{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-toolbar .fc-button.bookme-pro-btn-unborder{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-calendar .fc .fc-toolbar > * > *{
+    float: right;
+    margin-right: .75em;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-calendar .fc .fc-toolbar > * > :first-child{
+    margin-right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-event{
+    padding: 3px 5px 3px 2px ;
+}
+
+
+#bookme-pro-tbs .bookme-pro-fc-inner .bookme-pro-calendar .fc-time .bookme-pro-fc-icon{
+    float: left;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .fc-loading-inner{
+    left: 0;
+    right: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-fc-inner .fc-loading-inner .fc-loading{
+    right: 50%;
+    left: auto;
+    padding-right: 64px;
+    padding-left: 0;
+    background: rgba(255, 0, 0, 0) url(../../images/ajax_loader_32x32.gif) no-repeat scroll 50% center;
+}
+
+#bookme-pro-tbs .wp-switch-editor + .wp-switch-editor{
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .editable-buttons{
+    text-align: left;
+}
+
+#bookme-pro-tbs .bookme-pro-table-sortable.table > thead > tr > th{
+    padding-right: 16px !important;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-table-sortable.table > thead > tr > th[ng-class]:after, #bookme-pro-tbs .bookme-pro-table-sortable.table > thead > tr > th[order-by]:after{
+    right: -4px;
+    left: auto;
+}
+
+#bookme-pro-tbs .table thead > tr > th:not(:first-child){
+    border-right: 1px solid #d9dee4;
+    border-left: none;
+}
+
+#bookme-pro-tbs .table td ul.bookme-pro-list, #bookme-pro-tbs .table th ul.bookme-pro-list{
+    padding-right: 13px;
+    padding-left: 0;
+}
+
+#bookme-pro-tbs .bookme-pro-color-picker-wrapper .wp-picker-container{
+    margin-right: -6px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-color-picker-wrapper .wp-picker-container .button{
+    margin-right: 6px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .page-header .bookme-pro-page-title{
+    float: right;
+}
+
+#bookme-pro-tbs .page-header .bookme-pro-page-title .bookme-pro-logo{
+    float: right;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+#bookme-pro-tbs .page-header .bookme-pro-page-title .bookme-pro-logo:before{
+    left: -16px;
+    right: auto;
+}
+
+#bookme-pro-tbs .page-header .bookme-pro-version{
+    float: left;
+}
+
+#bookme-pro-tbs .bookme-pro-alert{
+    left: 13px;
+    right: auto;
+    text-align: right;
+}
+
+@media (min-width: 783px){
+    #bookme-pro-tbs .bookme-pro-alert{
+        left: 21px;
+        right: auto;
+    }
+
+}
+
+#bookme-pro-tbs .bookme-pro-alert button{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#bookme-pro-tbs .bookme-pro-alert .alert {
+    transform:translate3d(-100%, 0px, 0px);
+}
+
+.modal-backdrop{
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 1125px){
+    #bookme-pro-js-add-fields.col-md-1{
+        border-left: 1px solid #d9dee4;
+        border-right: none;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+
+}
+
+#bookme-pro-tbs .ms-options-wrap > button {
+    text-align: right;
+    padding-right: 12px;
+    padding-left: 22px;
+    background-position: 4px 50%;
+}
+
+
+/* sidePanel */
+.slidePanel-header{
+    padding-left: 120px;
+    text-align: right !important;
+}
+
+.slidePanel-actions{
+    float: left;
+    margin-right: 15px;
+    text-align: left;
+}
+
+.slidePanel-action:last-child{
+    margin-left: 0;
+}
+
+.slidePanel-action .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+.slidePanel-action .dropdown-menu .icon{
+    margin-left: 10px;
+}
+
+.slidePanel-inner{
+    right: 0;
+    left: 0;
+}
+
+.slidePanel-comment .reply{
+    right: 10px;
+}
+
+.preloader .cssload-speeding-wheel{
+    right: calc(50% - 3.5px);
+}
+
+.cssload-speeding-wheel{
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.slidePanel-overlay-panel{
+    left: 0;
+    right: 0;
+}
+
+.slidePanel-actions button{
+    margin-left: 5px !important;
+    margin-right: 0 !important;
+}
+
+.slidePanel-actions button:last-child{
+    margin-left: 0 !important;
+}
+
+.slidePanel-inner .wp-picker-active, #bookme-pro-appearance .bookme-pro-calendar-color .wp-picker-active{
+    right: -130px;
+}
+
+.slidePanel-inner .wp-color-result, #bookme-pro-appearance .bookme-pro-calendar-color .wp-color-result{
+    float: left;
+}
+
+.slidePanel-wrapper{
+    left: 0;
+    right: 0;
+}
+
+.slidePanel-inner .panel-footer{
+    right: 0;
+    left: 0;
+}
+
+#bookme-pro-tbs .ladda-button[data-style="zoom-in"][data-loading] .ladda-spinner {
+    margin-left: -22px !important;
+}
+
+#bookme-pro-tbs .bookme-pro-holidays-nav .dashicons-arrow-left-alt2:before {
+    content: "\f345";
+}
+
+#bookme-pro-tbs .bookme-pro-holidays-nav .dashicons-arrow-right-alt2:before {
+    content: "\f341";
+}
+
+/* Daterange picker */
+#bookme-pro-tbs .daterangepicker{
+    right: 0 !important;
+    left:auto !important;
+}
+
+#bookme-pro-tbs .daterangepicker.opensleft:before{
+    left: 9px;
+}
+
+#bookme-pro-tbs .daterangepicker.opensleft:after{
+    left: 10px;
+}
+
+
+#bookme-pro-tbs .daterangepicker.opensright:before{
+    right: 9px;
+    left: auto;
+}
+
+#bookme-pro-tbs .daterangepicker.opensright:after{
+    right: 10px;
+    left: auto;
+}
+
+#bookme-pro-tbs .daterangepicker td.start-date{
+    border-radius: 0 4px 4px 0;
+}
+
+#bookme-pro-tbs .daterangepicker td.end-date{
+    border-radius: 4px 0 0 4px;
+}
+
+#bookme-pro-tbs .daterangepicker select.monthselect{
+    margin-left: 2%;
+}
+
+#bookme-pro-tbs .daterangepicker .input-mini{
+    margin: 0 0 5px 0 ;
+    padding: 0 28px 0 6px ;
+}
+
+#bookme-pro-tbs .daterangepicker .daterangepicker_input i{
+    right: 8px;
+}
+
+#bookme-pro-tbs .daterangepicker .calendar-time{
+    padding-right: 28px;
+}
+
+#bookme-pro-tbs .daterangepicker .ranges{
+    text-align: right;
+}
+
+#bookme-pro-tbs .daterangepicker .glyphicon-chevron-right:before{
+    content: "\e079";
+}
+
+#bookme-pro-tbs .daterangepicker .glyphicon-chevron-left:before{
+    content: "\e080";
+}
+
+@media (min-width: 564px){
+    #bookme-pro-tbs .daterangepicker .calendar.left .calendar-table{
+        border-left: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding-left: 12px;
+    }
+
+    #bookme-pro-tbs .daterangepicker .calendar.right .calendar-table{
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #bookme-pro-tbs .daterangepicker.single .ranges,  .daterangepicker.single .calendar{
+        float: right;
+    }
+
+    #bookme-pro-tbs .daterangepicker .calendar.right{
+        margin-right: 0;
+    }
+
+    #bookme-pro-tbs .daterangepicker .left .daterangepicker_input{
+        padding-left: 12px;
+        padding-right: 0;
+    }
+
+    #bookme-pro-tbs .daterangepicker .ranges,  .daterangepicker .calendar{
+        float: right;
+    }
+
+}
+
+@media (min-width: 730px){
+    #bookme-pro-tbs .daterangepicker .ranges{
+        float: right;
+    }
+
+}
+
+.input-group > .select2-hidden-accessible:first-child + .select2-container--bootstrap > .selection > .select2-selection, .input-group > .select2-hidden-accessible:first-child + .select2-container--bootstrap > .selection > .select2-selection.form-control {
+    border-radius: 0 4px 4px 0;
+}

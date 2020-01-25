@@ -1,0 +1,374 @@
+.bookme-pro-left{
+    float: right!important;
+}
+
+.bookme-pro-right{
+    float: left!important;
+}
+
+.bookme-pro-rtext{
+    text-align: left;
+}
+
+.bookme-pro-list{
+    margin-right: 10px!important;
+}
+
+.bookme-pro-loader:before{
+    border-right-color: transparent;
+    right: 50%;
+    margin-right: -10px;
+}
+
+.bookme-pro-shortcode-loader.bookme-pro-loader:before{
+    border-right-color: #225c9d;
+    border-left-color: #225c9d;
+}
+
+.bookme-pro-form-group > div{
+    margin-left: 14px;
+    margin-right: 0;
+}
+
+.bookme-pro-table-row .bookme-pro-form-group > div{
+    margin-left: 0;
+}
+
+.bookme-pro-time-next{
+    background-position: 50% -56px;
+    margin-right: 10px !important;
+    transform: rotate(180deg);
+}
+
+.bookme-pro-time-prev{
+    background-position: 50% 8px;
+    transform: none
+}
+
+.bookme-pro-checkbox-group label:nth-child(3){
+    margin-right: 4px;
+}
+
+.bookme-pro-round-button:first-child{
+    margin-left: 5px !important;
+}
+
+.bookme-pro-triangle{
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+}
+
+.bookme-pro-back-step{
+    margin-left: 10px;
+    margin-right: 0;
+    float: right!important;
+}
+
+.bookme-pro-next-step{
+    float: left!important;
+}
+
+.bookme-pro-steps > li:after{
+    right: calc(50% + 18px);
+}
+
+.bookme-pro-service-step .bookme-pro-available-date .bookme-pro-form-group > div{
+    margin-left: 0;
+}
+
+.bookme-pro-mobile-step-1, .bookme-pro-details-step{
+    margin-left: -14px;
+    margin-right: 0;
+}
+
+.bookme-pro-time-step{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bookme-pro-columnizer .bookme-pro-day, .bookme-pro-columnizer .bookme-pro-hour{
+    text-align: right;
+}
+
+.bookme-pro-columnizer .bookme-pro-hour .ladda-label{
+    float: left;
+}
+
+@media screen and (max-width: 720px) {
+    .bookme-pro-columnizer .bookme-pro-hour .ladda-label {
+        float: none;
+    }
+}
+
+.bookme-pro-slot-calendar{
+    margin: 0 0 20px 20px ;
+}
+
+.bookme-pro-not-time-screen{
+    margin-right: 320px;
+}
+
+.bookme-pro-not-time-screen.bookme-pro-not-calendar{
+    margin-right: 0;
+}
+
+.bookme-pro-spin-overlay .bookme-pro-spin{
+    right: 50%;
+    margin-right: -20px;
+}
+
+.bookme-pro-pagination{
+    padding-right: 0;
+}
+
+.bookme-pro-pagination > li{
+    border-left: 0 !important;
+}
+
+.bookme-pro-pagination > li:first-child{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bookme-pro-pagination > li:last-child{
+    border-left: 1px solid #cccccc !important;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.bookme-pro-well{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.bookme-pro-well > div:nth-child(1){
+    margin: 5px 0 5px 5px ;
+    float: right;
+}
+
+.bookme-pro-triangle-md{
+    margin: 5px 0 5px 5px ;
+    border-right: 22px solid transparent;
+    border-left: 22px solid transparent;
+    float: right;
+}
+
+.bookme-pro-icon-md{
+    margin-right: 6px;
+}
+
+.bookme-pro-triangle .bookme-pro-icon-sm{
+    margin-right: -2px;
+    padding-right: 4px;
+}
+
+.bookme-pro-icon-user{
+    margin: 4px 2px 0 2px ;
+}
+
+.bookme-pro-icon-time{
+    margin: 4px 2px 0 2px ;
+}
+
+.bookme-pro-go-to-cart{
+    margin-left: 10px;
+    float: right!important;
+}
+
+.bookme-pro-cart th{
+    border-width: 0 0 1px 0 ;
+}
+
+/* intl tel input */
+.bookme-pro-details-step .bookme-pro-form-group .intl-tel-input input{
+    padding-right: 45px !important;
+    direction: ltr;
+    text-align: right;
+}
+
+.bookme-pro-details-step .intl-tel-input input,.bookme-pro-details-step .intl-tel-input input[type=tel],.bookme-pro-details-step .intl-tel-input input[type=text]{
+    padding-left: 36px;
+    margin-left: 0;
+}
+
+.bookme-pro-details-step .intl-tel-input .flag-container{
+    left: 0;
+}
+
+.bookme-pro-details-step .intl-tel-input .selected-flag{
+    padding: 0 8px 0 0 ;
+}
+
+.bookme-pro-details-step .intl-tel-input .selected-flag .iti-arrow{
+     left: 6px;
+     right: auto;
+ }
+
+.bookme-pro-details-step .intl-tel-input .country-list{
+    text-align: right;
+    margin: 0 -1px 0 0 ;
+}
+
+.bookme-pro-details-step .intl-tel-input .country-list .country-name,.bookme-pro-details-step .intl-tel-input .country-list .flag-box{
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.intl-tel-input.allow-dropdown input,.bookme-pro-details-step .intl-tel-input.allow-dropdown input[type=tel],.bookme-pro-details-step .intl-tel-input.allow-dropdown input[type=text],.bookme-pro-details-step .intl-tel-input.separate-dial-code input,.bookme-pro-details-step .intl-tel-input.separate-dial-code input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code input[type=text]{
+    padding-left: 6px;
+    padding-right: 52px;
+    margin-right: 0;
+}
+
+.bookme-pro-details-step .intl-tel-input.allow-dropdown .flag-container,.bookme-pro-details-step .intl-tel-input.separate-dial-code .flag-container{
+    left: auto;
+    right: 0;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code .selected-dial-code{
+    padding-right: 28px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-2 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-2 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-2 input[type=text]{
+    padding-right: 66px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text]{
+    padding-right: 76px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-3 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-3 input[type=text]{
+    padding-right: 74px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{
+    padding-right: 84px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-4 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-4 input[type=text]{
+    padding-right: 82px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 input[type=text]{
+    padding-right: 92px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-5 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-5 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.iti-sdc-5 input[type=text]{
+    padding-right: 90px;
+}
+
+.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input,.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=tel],.bookme-pro-details-step .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-5 input[type=text]{
+    padding-right: 100px;
+}
+
+.bookme-pro-details-step .intl-tel-input.iti-container{
+    right: -1000px;
+}
+
+.bookme-pro-details-step .iti-mobile .intl-tel-input.iti-container{
+    right: 30px;
+    left: 30px;
+}
+
+.bookme-pro-form select.bookme-pro-card-exp{
+    margin-left: 10px !important;
+}
+
+.bookme-pro-form .bookme-pro-payment-nav > div > label > img{
+    margin-right: 10px;
+}
+
+.bookme-pro-close:hover, .bookme-pro-close:focus, .bookme-pro-close{
+    float: left;
+}
+
+.bookme-pro-modal{
+    right: 0;
+}
+
+.bookme-pro-modal .bookme-pro-modal-dialog{
+    right: 50%;
+    margin-right: -200px;
+}
+
+.bookme-pro-modal .bookme-pro-modal-content .bookme-pro-modal-footer{
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .bookme-pro-modal .bookme-pro-modal-dialog{
+        right: 15px;
+        left: 15px;
+    }
+
+}
+
+.bookme-pro-form .picker__holder{
+    right: 0px;
+}
+
+.bookme-pro-form .picker{
+    left: auto!important;
+    right: auto!important;
+}
+
+.bookme-pro-form .picker__frame{
+    background: linear-gradient(to left #225c9d, #44619d);
+}
+
+.bookme-pro-form .picker__nav--prev{
+    right: 20px;
+    transform: none;
+}
+
+.bookme-pro-form .picker__nav--next{
+    left: 20px !important;
+    right: auto;
+    transform: rotate(180deg);
+}
+
+.bookme-pro-row .bookme-pro-col-label{
+    text-align: left;
+}
+
+.bookme-pro-col-1, .bookme-pro-col-2, .bookme-pro-col-3, .bookme-pro-col-4, .bookme-pro-col-5, .bookme-pro-col-6, .bookme-pro-col-7, .bookme-pro-col-8, .bookme-pro-col-9, .bookme-pro-col-10, .bookme-pro-col-11, .bookme-pro-col-12{
+    float: right!important;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#bookme-pro-tooltip::after{
+    right: 50%;
+    margin-right: -5px;
+}
+
+.ladda-button[data-style="zoom-in"][data-loading] .ladda-spinner {
+    margin-left: -22px !important;
+}
+
+@media screen and (max-width: 650px){
+    .bookme-pro-form-group > div{
+        margin-left: 0 !important;
+    }
+
+    .bookme-pro-service-step .bookme-pro-available-date,   .bookme-pro-service-step .bookme-pro-week-days{
+        margin-left: 0 !important;
+    }
+
+    .bookme-pro-service-step .bookme-pro-time-to{
+        float: left !important;
+    }
+
+    .bookme-pro-not-time-screen{
+        margin-right: 0!important;
+    }
+
+    .bookme-pro-form .picker__holder{
+        right: 0!important;
+    }
+
+    .bookme-pro-row .bookme-pro-col-label,   .bookme-pro-row .bookme-pro-text-center{
+        text-align: right;
+    }
+
+}

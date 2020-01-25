@@ -1,0 +1,80 @@
+.elegirnos{
+	font-family: 'Roboto Slab',system-ui;
+}
+.title-quienes{
+	position: relative;
+    h2{
+	    font-size: 50px;
+	    text-align: center;
+	    line-height: 50px;
+	    text-transform: uppercase;
+	    letter-spacing: 5px;
+    }
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: -50px;
+		height: 50px;
+		display: none;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+		background: $cafe;
+		@media screen and (min-width: 768px) {
+			display: block;
+		}
+	}
+}
+.amenities{
+	padding: 200px 0px 0px;
+	.item{
+		img{
+			margin-bottom: 30px;
+			margin-top: 20px;
+		}
+	}
+	.img-amenites{
+		position: relative;
+		img{
+			position: relative;
+			z-index: 1;
+		}
+		&:after{
+			content: "";
+			display: block;
+			position: absolute;
+			width: 60%;
+			height: 70%;
+			background: rgba(255,255,255,0.5);
+			transform: translateY(-20%) translateX(-20%);
+		}
+	}
+}
+.qs-tripadvisor{
+	p{
+		display: block;
+		padding: 10px 0;
+		margin-bottom: 0;
+	}
+	.icon-img-fluid{
+		padding: 20px 40px;
+		border-right: solid 1px $gray;
+		align-self: flex-start;
+		width: 40%;
+		img{
+			max-height: 100px;
+		}
+	}
+	.item-trip-ameni{
+		border:solid 1px $gray;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 100%;
+		h2{
+			width: 60%;
+			text-align: center;
+			margin-bottom: 0;
+		}
+	}
+}

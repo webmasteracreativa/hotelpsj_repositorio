@@ -1,0 +1,78 @@
+.editable-buttons{
+    margin-right: 7px;
+    margin-left: auto;
+}
+
+.editable-buttons.editable-buttons-bottom{
+    margin-right: 0;
+}
+
+.editable-buttons .editable-cancel{
+    margin-right: 7px;
+    margin-left: auto;
+}
+
+.editable-inline .editableform-loading{
+    background-position: right 5px;
+}
+
+.editable-error-block{
+    margin: 5px 0 0 0 ;
+}
+
+.editableform .editable-date{
+    float: right;
+}
+
+.editable-inline .add-on .icon-th{
+    margin-right: 1px;
+    margin-left: auto;
+}
+
+.editable-clear{
+    text-align: left;
+}
+
+.editable-clear-x{
+    left: 6px;
+    right: auto;
+}
+
+.datepicker{
+    direction: rtl;
+}
+
+.datepicker.datepicker-rtl{
+    direction: ltr;
+}
+
+.datepicker.datepicker-rtl table tr td span{
+    float: left;
+}
+
+.datepicker-dropdown{
+    right: 0;
+    left: auto;
+}
+
+.datepicker-dropdown:before{
+    right: 6px;
+    left: auto;
+}
+
+.datepicker-dropdown:after{
+    right: 7px;
+    left: auto;
+}
+
+.datepicker .cw{
+    padding: 0 5px 0 2px ;
+}
+
+.input-daterange input:first-child{
+    border-radius: 0 3px 3px 0;
+}
+
+.input-daterange input:last-child{
+    border-radius: 3px 0 0 3px;
+}

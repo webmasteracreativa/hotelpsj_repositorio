@@ -1,0 +1,36 @@
+[04-Jan-2020 11:37:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[04-Jan-2020 21:49:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[06-Jan-2020 03:32:03 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[07-Jan-2020 19:16:32 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[16-Jan-2020 20:41:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[19-Jan-2020 05:29:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[19-Jan-2020 11:15:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[24-Jan-2020 05:53:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
+[24-Jan-2020 20:20:45 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/hotelp/public_html/wp-content/themes/Hotel-SJ/index.php on line 1
