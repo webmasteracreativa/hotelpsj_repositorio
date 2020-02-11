@@ -3,7 +3,7 @@
 				<div class="row">
 					<div class="offset-md-0 col-md-6 offset-lg-2 col-lg-4 pb-3">
 						<h2>
-							UBICACIÓN
+							CONTÁCTANOS
 						</h2>
 						<div class="form">
 							<div role="main" id="contacto-sitio-web-569d5c4ed4956655d181"></div>

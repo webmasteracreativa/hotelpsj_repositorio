@@ -64,7 +64,7 @@
 						<div class="col califi align-items-center p-0 justify-content-center d-none d-lg-flex">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/white.png" data-src="<?php echo get_template_directory_uri(); ?>/img/white.png" data-srcset="<?php echo get_template_directory_uri(); ?>/img/booking-8.png" class="lazy">
 							<div class="calificacion d-inline-block font-roboto">
-								<span class="d-block">9,1</span>
+								<span class="d-block">9,2</span>
 								<small>sobre 10</small>
 							</div>
 						</div>
@@ -251,7 +251,7 @@
 	</section>
 	<!-- servicios -->
 	<!-- galeria -->
-	<section class="galeria container-fluid pb-5">
+	<!-- <section class="galeria container-fluid pb-5">
 		<div class="row justify-content-end">
 			<div class="title-separate col-12 col-md-6 text-center">
 				<h2>Galeria</h2>
@@ -298,7 +298,7 @@
 			endif; 
 			?>
 		</div>
-	</section>
+	</section> -->
 	<!-- /galeria -->
 </div>
 <?php get_footer(); ?>

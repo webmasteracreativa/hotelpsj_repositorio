@@ -48,7 +48,7 @@
 						</div>
 						<p><?php echo $salon_desc;?></p>
 						<div class="d-block btn-c pt-5">
-							<a href="<?php echo get_site_url() ?>/reservaciones" class="btn bg-dorado d-inline-block">Reservar</a>
+							<a href="<?php echo get_site_url() ?>/reservaciones" class="btn bg-dorado d-inline-block">Cotizar</a>
 						</div>
 					</div>
 				</div>
